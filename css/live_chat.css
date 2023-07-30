@@ -1,0 +1,94 @@
+.content {
+    width: 100%;
+    padding: 0 30px 30px 50px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    padding-top: 100px;
+}
+
+.content h2 {
+    color: #4a2e1d;
+    padding-bottom: 5px;
+}
+
+.profile {
+    border-bottom: #4a2e1d solid 2px;
+    padding-bottom: 5px;
+}
+
+.profile img {
+    width: 100px;
+    vertical-align: middle;
+}
+
+.chatbox {
+    width: 90%;
+    border: #4a2e1d solid 2px;
+    border-radius: 5px;
+    padding: 10px; 
+}
+
+.chats {
+    padding-top: 10px;
+    display: block;
+    height: 300px;
+    overflow-y: auto;
+}
+
+.chats .live_chat {
+    float: left;
+    width: 60%;
+    min-width: fit-content;
+    word-wrap: break-word;
+    background-color: #bb8c5d;
+    padding: 7px 10px;
+    border-radius: 10px 10px 10px 0;
+    margin: 5px;
+}
+
+.chats .my_chat {
+    float: right;
+    width: 60%;
+    min-width: fit-content;
+    word-wrap: break-word;
+    background-color: white;
+    padding: 7px 10px;
+    border-radius: 10px 10px 0 10px;
+    border: #bb8c5d solid 2px;
+    margin: 5px;
+}
+
+.reply {
+    width: 100%;
+    border-top: #4a2e1d solid 2px;
+    padding-top: 10px;
+}
+
+.reply textarea {
+    width: 91%;
+    border-radius: 5px;
+    background: transparent;
+	outline: none;
+	resize: none;
+	scrollbar-width: none;
+}
+
+.reply button {
+    width: 5%;
+    min-width: 55px;
+    margin-left: 7px;
+    vertical-align: top;
+    padding: 8px 0;
+    color: #4a2e1d;
+    font-weight: bold;
+    background-color: #bb8c5d;
+    border: #4a2e1d solid 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+    .profile img {
+        display: none;
+    }
+}

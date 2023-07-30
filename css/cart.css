@@ -1,0 +1,65 @@
+.content {
+    width: 100%;
+    padding: 0 30px 30px 50px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    margin-top: 100px;
+    overflow-x: auto;
+}
+
+.content h2 {
+    color: #4a2e1d;
+    padding-bottom: 5px;
+}
+
+table {
+    color: #4a2e1d;
+    width: 100%;
+}
+
+table, th, td {
+    border: #4a2e1d solid 2px;
+    border-radius: 5px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px 15px;
+}
+
+table img {
+    height: 150px;
+    width: 200px;
+    margin: 10px 0;
+    border: #4a2e1d solid 1px;
+    border-radius: 5px;
+}
+
+table [type="text"], table select {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#price1, #price2, #price3, #price4 {
+    width: 100px;
+}
+
+#amount1, #amount2, #amount3, #amount4, #totalAmount {
+    width: 100px;
+}
+
+.order input {
+    float: right;
+    border-color: #4a2e1d;
+    background-color: #4a2e1d;
+    color: white;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.order input:hover {
+    background-color: #6e452b;
+}

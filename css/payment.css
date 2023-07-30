@@ -1,0 +1,178 @@
+.content {
+    display: block;
+    float: left;
+    width: 80%;
+    margin: 30px 10% 50px 10%;
+    overflow-x: auto;
+    color: #4a2e1d;
+}
+
+.collect_details {
+    width: 100%;
+    margin-bottom: 30px;
+    max-width: 650px;
+    min-width: 510px;
+    padding: 0 10px 5px 10px;
+    border: black solid 1px;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 5px;
+}
+
+.collect_details h2 {
+    padding: 10px;
+}
+
+.collect_details .option label {
+    display: inline-block;
+    margin: 10px 15px 5px 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.collect_details label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.collect_details [type="text"], .collect_details [type="date"], .collect_details [type="time"] {
+    border: black solid 1px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.collect_details #addr {
+    display: none;
+}
+
+.collect_details #note {
+    display: none;
+    padding: 10px 0;
+}
+
+.membership_details {
+    width: 100%;
+    margin-bottom: 30px;
+    max-width: 550px;
+    min-width: 510px;
+    padding: 0 10px 5px 10px;
+    border: black solid 1px;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 5px;
+}
+
+.membership_details h2 {
+    padding: 10px;
+}
+
+.membership_details label#membership {
+    display: inline-block;
+    margin: 10px 15px 5px 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.membership_details #membership_form {
+    display: none;
+}
+
+.membership_details label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.membership_details [type="text"], .membership_details [type="password"] {
+    border: black solid 1px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    width: 300px;
+}
+
+.membership_details [type="text"], .membership_details [type="password"] {
+    background-color: #ff9999;
+}
+
+.cart_details {
+    width: 100%;
+    margin-bottom: 30px;
+    max-width: 550px;
+    min-width: 510px;
+    padding: 0 10px 5px 10px;
+    border: black solid 1px;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 5px;
+}
+
+.cart_details h2 {
+    padding: 10px;
+}
+
+table, th, td {
+    border: transparent solid 1px;
+}
+
+th, td {
+    padding: 5px;
+}
+
+td:nth-child(2), td:nth-child(3) {
+    text-align: center;
+}
+
+.card_details {
+    width: 100%;
+    max-width: 400px;
+    min-width: 250px;
+    margin-bottom: 30px;
+    padding: 0 10px 5px 10px;
+    border: black solid 1px;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 5px;
+}
+
+.card_details h2 {
+    padding: 5px 0;
+}
+
+.card_details label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.card_details [type="text"] {
+    border: black solid 1px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.card_details #expmonth, .card_details #expyear {
+    width: 60px;
+}
+
+.card_details #cvv{
+    width: 100px;
+}
+
+.pay_button input[type=submit] {
+    width: 100%;
+    max-width: 400px;
+    min-width: 250px;
+    padding: 10px 0;
+    font-size: large;
+    font-weight: bold;
+    border: #4a2e1d solid 2px;
+    border-radius: 5px;
+    background-color: #4a2e1d;
+    color: white;
+}
+
+.pay_button input[type=submit]:hover {
+    background-color: #6e452b;
+}

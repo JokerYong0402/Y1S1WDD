@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Bread Basket</title>
+    <link href="image/bread.ico" rel="icon" type="image/x-icon">
+    <link href="css/nav.css" rel="stylesheet">
+    <link href="css/cart.css" rel="stylesheet">
+    <script src="js/cart.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="header">
+        <a href="tel:+6034739560"><img src="image/icon/telephone-white.png" alt="tel"> +603 473 9560</a>
+        <a href="about_us.html"><img src="image/icon/operation-white.png" alt="operation"> Mon - Sat: 7.00 - 17.00</a>
+        <a href="mailto:thebreadbasket@gmail.com"><img src="image/icon/mail-white.png" alt="mail"> thebreadbasket@gmail.com</a>
+    </div>
+
+    <div class="logo">
+        <a href="home.html"><img src="image/logo.png" alt="logo"></a>
+    </div>
+    
+    <div class="topnav">
+        <a href="home.html">HOME</a>
+        <a href="about_us.html">ABOUT US</a>
+        <div class="products">
+            <a href="products.html" >PRODUCTS &#8600;</a>
+            <div class="catogories">
+                <a href="product_bread.html">Bread</a>
+                <a href="product_cake.html">Cake</a>
+                <a href="product_cookie.html">Cookie</a>
+                <a href="product_beverage.html">Beverage</a>
+            </div>
+        </div>
+        <a href="membership.html">MEMBERSHIP</a>
+        <a href="faq.html">FAQ</a>
+        <a href="feedback.html">FEEDBACK</a>
+        <a href="live_chat.html">CHAT</a>
+        <a class="active" href="cart.html"><img src="image/icon/cart-brown.png" alt="cart"> CART</a>
+    </div>
+
+    <div class="content">
+        <h2>Cart</h2>
+        <table id="cart">
+            <tr>
+                <th>No.</th>
+                <th>Catogory</th>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Variety</th>
+                <th>Amount (RM)</th>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>Bread</td>
+                <td>
+                    <select id="bread" name="bread" onchange="display(this,1)">
+                        <option value="0.00" selected>None</option>
+                        <option value="4.50">Bacon Cheese Rolls</option>
+                        <option value="5.90">Cheese Curry Bun</option>
+                        <option value="5.00">Cheese Potato Bun</option>
+                        <option value="4.50">Chocochip Bun</option>
+                        <option value="4.00">Croissant</option>
+                        <option value="4.90">Grainnuts Bun</option>
+                        <option value="5.60">Ham Toast</option>
+                        <option value="5.90">Matcha Twist</option>
+                        <option value="4.50">Milk Peanut Toast</option>
+                        <option value="5.30">Pineapple Bun</option>
+                        <option value="2.50">Red Bean Bun</option>
+                        <option value="3.50">Sausage Bun</option>
+                        <option value="5.50">Wheat Walnuts Toast</option>
+                    </select>
+                    <div class="image"><img id="bread_image" src=" "></div>
+                </td>
+                <td><input type="text" id="price1" name="price1" placeholder="0.00" readonly></td>
+                <td>
+                    <select id="quantity1" name="quantity1" onchange="sub(this, 1)" disabled>
+                        <script type="text/javascript">
+                            quantity();
+                        </script>
+                    </select>
+                </td>
+                <td>
+                    <select id="variety1" name="variety1" disabled>
+                        <option>Original</option>
+                    </select>
+                </td>
+                <td><input type="text" id="amount1" name="amount1" value="0.00" onchange="calculate()" disabled></td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Cake</td>
+                <td>
+                    <select id="cake" name="cake" onchange="display(this, 2)">
+                        <option value="0.00" selected>None</option>
+                        <option value="110.00">Peach Ice Cream Cake</option>
+                        <option value="69.00">Rose Mousse Cake</option>
+                        <option value="69.00">Mango Passion Fruit Cake</option>
+                        <option value="99.00">Strawberry Mousse Cake</option>
+                        <option value="69.00">Mint Chocolate Cake</option>
+                        <option value="49.00">Raspberry Coulis Cake</option>
+                        <option value="79.90">Grainnuts Bun</option>
+                        <option value="109.00">Matcha Red Bean Cake</option>
+                        <option value="59.00">Yuzu Gin Sorbet Cake</option>
+                    </select>
+                    <div class="image"><img id="cake_image" src=" "></div>
+                </td>
+                <td><input type="text" id="price2" name="price2" placeholder="0.00" readonly> / 0.5kg</td>
+                <td>
+                    <select id="quantity2" name="quantity2" onchange="sub(this, 2)" disabled>
+                        <script type="text/javascript">
+                            quantity_cake();
+                        </script>
+                    </select>
+                </td>
+                <td>
+                    <select id="variety2" name="variety2" disabled>
+                        <option>Original</option>
+                    </select>
+                </td>
+                <td><input type="text" id="amount2" name="amount2" value="0.00" onchange="calculate()" disabled></td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Cookie</td>
+                <td>
+                    <select id="cookie" name="cookie" onchange="display(this, 3)">
+                        <option value="0.00" selected>None</option>
+                        <option value="12.00">Chocochip Cookies</option>
+                        <option value="15.00">Cranberry Cookies</option>
+                        <option value="13.00">Garlic Cookies</option>
+                        <option value="13.00">Matcha Cookies</option>
+                        <option value="13.00">Oreo Cookies</option>
+                        <option value="14.00">Saltycheese Cookies</option>
+                        <option value="13.00">Saltyseaweed Cookies</option>
+                    </select>
+                    <div class="image"><img id="cookie_image" src=" "></div>
+                </td>
+                <td><input type="text" id="price3" name="price3" placeholder="0.00" readonly> / 10pcs</td>
+                <td>
+                    <select id="quantity3" name="quantity3" onchange="sub(this, 3)" disabled>
+                        <script type="text/javascript">
+                            quantity();
+                        </script>
+                    </select>
+                </td>
+                <td>
+                    <select id="variety3" name="variety3" disabled>
+                        <option>Original</option>
+                    </select>
+                </td>
+                <td><input type="text" id="amount3" name="amount3" value="0.00" onchange="calculate()" disabled></td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>Beverage</td>
+                <td>
+                    <select id="beverage" name="beverage" onchange="display(this, 4)">
+                        <option value="0.00" selected>None</option>
+                        <option value="8.50">Orange Soda Coffee</option>
+                        <option value="8.00">Green Orange Coffee</option>
+                        <option value="8.00">Green Plum Tea Coffee</option>
+                        <option value="7.00">Latte</option>
+                        <option value="6.00">Lemon Soda Coffee</option>
+                        <option value="6.00">Orange Soda Coffee</option>
+                        <option value="8.00">Soya Coffee Latte</option>
+                        <option value="8.50">Yakult Coffee</option>
+                    </select>
+                    <div class="image"><img id="beverage_image" src=" "></div>
+                </td>
+                <td><input type="text" id="price4" name="price4" placeholder="0.00" readonly></td>
+                <td>
+                    <select id="quantity4" name="quantity4" onchange="sub(this, 4)" disabled>
+                        <script type="text/javascript">
+                            quantity();
+                        </script>
+                    </select>
+                </td>
+                <td>
+                    <select id="variety4" name="variety4" disabled>
+                        <option>Hot</option>
+                        <option>Iced</option>
+                    </select>
+                </td>
+                <td><input type="text" id="amount4" name="amount4" value="0.00" onchange="calculate()" disabled></td>
+            </tr>
+            <tr>
+                <td colspan="6" style="text-align:right;">Total:</td>
+                <td><input type="text" name="totalAmount" id="totalAmount" value="0.00" disabled></td>
+            </tr>
+        </table>
+
+        <div class="order">
+            <input type="submit" value="Proceed To Payment" onclick="store()">
+            <input type="button" value="Reset Cart" onclick="reset()">
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="intro">
+            <h3>Bakery</h3>
+            <img src="image/logo.png" alt="logo"><br>
+            <h4>THE BREAD BASKET</h4>
+            <a href="home.html">Home</a> | <a href="about_us.html">About Us</a> | <a href="faq.html">FAQ</a><br>
+            <span>Copyright &copy; 2022 The Bread Basket Bakery. All rights reserved<span>
+        </div>
+        <div class="contact">
+            <h3>Contact</h3>
+            <a href="https://www.google.com.my/maps/">
+                <img src="image/icon/location-yellow.png"><span> Address:</span>
+                <address>
+                9, Jalan USJ 50/3 UEP,<br>
+                47630, Subang Jaya,<br>
+                Selangor.
+                </address>
+                <br>
+            </a>
+            <a href="tel:+6034739560"><img src="image/icon/telephone-yellow.png"><span> Phone:</span> +603 473 9560</a><br><br>
+            <a href="mailto:thebreadbasket@gmail.com"><img src="image/icon/mail-yellow.png"><span> Email:</span> thebreadbasket@gmail.com</a>
+        </div>
+        <div class="about">
+            <h3>About the bakery</h3>
+            <div class="about-desc">
+                <p>Establishments producing and selling flour-based food like breads, cakes, and cookies are what bakeries are all about.</p>
+                <p>The objective of our bakery is to make the world a better place.</p>
+            </div>
+            <a href="https://www.facebook.com/" target="_blank"><img src="image/icon/facebook-yellow.png"></a>
+            <a href="https://www.twitter.com/" target="_blank"><img src="image/icon/twitter-yellow.png"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="image/icon/instagram-yellow.png"></a>
+            <a href="https://www.youtube.com/" target="_blank"><img src="image/icon/youtube-yellow.png"></a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+    margin: 0;
+}
+
+/*header*/
+.header {
+    display: block;
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    border: #825133 solid 1px;
+    background-color: #4a2e1d;
+    padding: 1px;
+}
+
+.header a {
+    float: left;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    font-size: small;
+}
+
+.header img {
+    padding: 1px;
+    vertical-align: top;
+}
+
+.logo img {
+    height: 150px;
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+.topnav {
+    display: block;
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    border: #825133 solid 2px;
+    border-radius: 5px;
+    margin: 1px;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    padding: 15px 10px;
+    margin: 5px;
+    text-decoration: none;
+    border: transparent solid 2px;
+    color: #825133;
+    font-size: large;
+    font-weight: bold;
+}
+
+.topnav a:nth-last-child(1) {
+    float: right;
+}
+
+/*cart*/
+.topnav img {
+    display: inline-block;
+    vertical-align: top;
+    width: 20px;
+    height: 20px;
+}
+
+.topnav a.active {
+    color: #eba834;
+}
+
+.topnav a:hover {
+    color: #eba834;
+    border: #eba834 solid 2px;
+    border-radius: 5px;
+}
+
+/*dropdown*/
+.products {
+    display: block;
+}
+
+.catogories {
+    display: none;
+    position: absolute;
+    margin: 60px 0 0 -150px;
+    border: #825133 solid 2px;
+    border-radius: 5px;
+    background-color: white;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.catogories a {
+    color: #825133;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.products:hover .catogories {
+    display: inline-block;
+}
+
+/*footer*/
+.footer {
+    display: block;
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    border: #4a2e1d solid 2px;
+    background-color: #4a2e1d;
+    padding: 5px;
+}
+
+.footer h3 {
+    color: #eba834;
+    text-decoration: underline;
+    padding: 10px 0;
+}
+
+.intro, .contact, .about {
+    float: left;
+    display: block;
+}
+
+.intro {
+    color: white;
+    width: 40%;
+}
+
+.intro a {
+    color: white;
+    text-decoration: none;
+}
+
+.intro img {
+    background-color: white;
+    border-radius: 5px;
+    margin: 1px 15px 5px 1px;
+    display: block;
+    float: left;
+    width: 150px;
+    height: 125px;
+}
+
+.intro h4 {
+    padding: 5px 0;
+    color: #eba834;
+}
+
+.intro span {
+    color: white;
+    font-size: small;
+}
+
+.contact {
+    width: 25%;
+}
+
+.contact a, .contact span {
+    text-decoration: none;
+    color: white;
+}
+
+.contact img {
+    display: inline-block;
+}
+
+.contact span {
+    color: #eba834;
+    font-weight: bold;
+}
+
+.contact img {
+    width: 10px;
+    height: 10px;
+}
+
+.about {
+    width: 35%;
+    color: white;
+}
+
+.about-desc {
+    display: block;
+}
+.about p {
+    display: block;
+    padding: 8px 0;
+}
+
+.about img {
+    margin: 10px 2px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+/* Mobile Devices */
+@media screen and (max-width: 480px) {
+    .header a {
+        float: none;
+        padding: 2px;
+    }
+    .header a:nth-child(1), .header a:nth-child(3) {
+        display: none;
+    }
+
+    .topnav a, .topnav a:nth-last-child(1), .topnav img{
+        float: none;
+        padding: 0;
+        text-align: center;
+    }
+
+    .intro, .contact, .about {
+        float: none;
+        width: 100%;
+    }
+}

@@ -1,0 +1,79 @@
+.content {
+    display: block;
+    float: left;
+    width: 80%;
+    margin: 30px 10% 50px 10%;
+    overflow-x: auto;
+    color: #4a2e1d;
+}
+
+.content h2 {
+    padding: 10px;
+}
+
+.receipt_details {
+    width: 100%;
+    margin-bottom: 30px;
+    max-width: 500px;
+    padding: 0 10px 5px 10px;
+    border: #4a2e1d solid 2px;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 5px;
+}
+
+.receipt_details img {
+    display: flex;
+    margin: 15px auto;
+    width: 200px;
+}
+
+.receipt_details .cart_details {
+    border: #4a2e1d solid 2px;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+td:nth-child(2), td:nth-child(3) {
+    text-align: center;
+}
+
+.receipt_details p#thank {
+    text-align: center;
+    margin: 15px;
+    font-size: large;
+    font-weight: bold;
+}
+
+button {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    font-size: large;
+    font-weight: bold;
+    border: #4a2e1d solid 2px;
+    border-radius: 5px;
+    background-color: #4a2e1d;
+    color: white;
+}
+
+button:hover {
+    background-color: #6e452b;
+}
+
+@media print {
+    body * {
+        visibility: hidden;
+    }
+
+    .receipt_details * {
+        visibility: visible;
+    }
+
+    .receipt_details {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+}

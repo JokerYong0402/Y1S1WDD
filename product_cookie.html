@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Bread Basket</title>
+    <link href="image/bread.ico" rel="icon" type="image/x-icon">
+    <link href="css/nav.css" rel="stylesheet">
+    <link href="css/product.css" rel="stylesheet">
+    <script src="js/expand.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="header">
+        <a href="tel:+6034739560"><img src="image/icon/telephone-white.png" alt="tel"> +603 473 9560</a>
+        <a href="about_us.html"><img src="image/icon/operation-white.png" alt="operation"> Mon - Sat: 7.00 - 17.00</a>
+        <a href="mailto:thebreadbasket@gmail.com"><img src="image/icon/mail-white.png" alt="mail"> thebreadbasket@gmail.com</a>
+    </div>
+
+    <div class="logo">
+        <a href="home.html"><img src="image/logo.png" alt="logo"></a>
+    </div>
+    
+    <div class="topnav">
+        <a href="home.html">HOME</a>
+        <a href="about_us.html">ABOUT US</a>
+        <div class="products">
+            <a href="products.html" >PRODUCTS &#8600;</a>
+            <div class="catogories">
+                <a href="product_bread.html">Bread</a>
+                <a href="product_cake.html">Cake</a>
+                <a class="active" href="product_cookie.html">Cookie</a>
+                <a href="product_beverage.html">Beverage</a>
+            </div>
+        </div>
+        <a href="membership.html">MEMBERSHIP</a>
+        <a href="faq.html">FAQ</a>
+        <a href="feedback.html">FEEDBACK</a>
+        <a href="live_chat.html">CHAT</a>
+        <a href="cart.html"><img src="image/icon/cart-brown.png" alt="cart"> CART</a>
+    </div>
+
+    <div class="content">
+        <div class="vertical-nav">
+            <h3>Catogories</h3>
+            <ul>
+                <li><a href="products.html">All</a></li>
+                <li><a href="product_bread.html">Bread</a></li>
+                <li><a href="product_cake.html">Cake</a></li>
+                <li><a class="active" href="product_cookie.html">Cookie</a></li>
+                <li><a href="product_beverage.html">Beverage</a></li>
+            </ul>
+        </div>
+        <div class="products-all">
+            <div class="cookie">
+                <div class="chocochip_cookies" id="best">
+                    <img src="image/cookie/chocochip_cookies.png" alt="chocochip cookies">
+                    <h4>Chocochip Cookies</h4>
+                    <p>RM 12 / 10pcs</p>
+                    <button onclick="expand('chocochip_cookies')">Description</button>
+                    
+                </div>
+                <div class="cranberry_cookies">
+                    <img src="image/cookie/cranberry_cookies.png" alt="cranberry cookies">
+                    <h4>Cranberry Cookies</h4>
+                    <p>RM 15 / 10pcs</p>
+                    <button onclick="expand('cranberry_cookies')">Description</button>
+                    
+                </div>
+                <div class="garlic_cookies">
+                    <img src="image/cookie/garlic_cookies.png" alt="garlic cookies">
+                    <h4>Garlic Cookies</h4>
+                    <p>RM 13 / 10pcs</p>
+                    <button onclick="expand('garlic_cookies')">Description</button>
+                    
+                </div>
+                <div class="matcha_cookies">
+                    <img src="image/cookie/matcha_cookies.png" alt="matcha cookies">
+                    <h4>Matcha Cookies</h4>
+                    <p>RM 13 / 10pcs</p>
+                    <button onclick="expand('matcha_cookies')">Description</button>
+                    
+                </div>
+                <div class="oreo_cookies">
+                    <img src="image/cookie/oreo_cookies.png" alt="oreo cookies">
+                    <h4>Oreo Cookies</h4>
+                    <p>RM 13 / 10pcs</p>
+                    <button onclick="expand('oreo_cookies')">Description</button>
+                    
+                </div>
+                <div class="saltycheese_cookies">
+                    <img src="image/cookie/saltycheese_cookies.png" alt="saltycheese cookies">
+                    <h4>Saltycheese Cookies</h4>
+                    <p>RM 14 / 10pcs</p>
+                    <button onclick="expand('saltycheese_cookies')">Description</button>
+                    
+                </div>
+                <div class="saltyseaweed_cookies">
+                    <img src="image/cookie/saltyseaweed_cookies.png" alt="saltyseaweed cookies">
+                    <h4>Saltyseaweed Cookies</h4>
+                    <p>RM 13 / 10pcs</p>
+                    <button onclick="expand('saltyseaweed_cookies')">Description</button>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="description">
+            <div class="cookie">
+                <div id="chocochip_cookies">
+                    <button onclick="expand('chocochip_cookies')"><img src="image/icon/close-yellow.png" alt="close"></button>
+                    <img src="image/cookie/chocochip_cookies.png" alt="chocochip cookies">
+                    <div class="detail">
+                        <h4>Chocochip Cookies</h4>
+                        <p><span>Price :</span> RM 12 / 10pcs</p>
+                        <p>Everyone must have the classic Chocochip Cookie. Crispy and chewy cookies filled with chocolate chips in every single bite.</p>
+                        <p><span>Ingredients :</span> Salted butter, sugar, vanilla extract, eggs, all-purpose flour, baking powder, baking soda, sea salt, chocolate chips.</p>
+                        <p><span>Nutrition(100g) :</span> Calories-487kcal, Carbohydrates-59g, protein-6g, fat-25g, cholesterol-27mg, sodium-153mg, fiber-1g, sugar-35g, vitaminA-197IU, vitaminC-1mg, calcium-24mg, iron-1mg.</p>
+                    </div>
+                </div>
+                <div id="cranberry_cookies">
+                    <button onclick="expand('cranberry_cookies')"><img src="image/icon/close-yellow.png" alt="close"></button>
+                    <img src="image/cookie/cranberry_cookies.png" alt="cranberry cookies">
+                    <div class="detail">
+                        <h4>Cranberry Cookies</h4>
+                        <p><span>Price :</span> RM 15 / 10pcs</p>
+                        <p>Cranberry Cookie is a perfect and delicious treat for the holiday season. Crispy on the outside, chewy on the inside, buttery and sweet. A little bit of sour taste will bring you a whole new taste.</p>
+                        <p><span>Ingredients :</span> Salted butter, sugar, vanilla extract, eggs, all-purpose flour, baking powder, baking soda, sea salt, dried cranberries.</p>
+                        <p><span>Nutrition(100g) :</span> Calories-463kcal, Carbohydrates-45g, protein-15g, fat-13g, sodium-307mg, fiber-3g, sugar-30g, vitaminA-200IU, vitaminC-3mg, calcium-30mg, iron-3mg.</p>
+                    </div>
+                </div>
+                <div id="garlic_cookies">
+                    <button onclick="expand('garlic_cookies')"><img src="image/icon/close-yellow.png" alt="close"></button>
+                    <img src="image/cookie/garlic_cookies.png" alt="garlic cookies">
+                    <div class="detail">
+                        <h4>Garlic Cookies</h4>
+                        <p><span>Price :</span> RM 13 / 10pcs</p>
+                        <p>Garlic cookies are sweet and savory may not be for everyone, but all of our friends who are die-hard garlic lovers have found these cookies enjoyable as an after dinner treat.</p>
+                        <p><span>Ingredients :</span> Salted butter, sugar, eggs, all-purpose flour, baking powder, baking soda, sea salt, coarse oatmeal, garlic.</p>
+                        <p><span>Nutrition(100g) :</span> Calories-432kcal, Carbohydrates-59.5g, protein-5.4g, fat-18.9g, cholesterol-10mg, sodium-919g, sugar-1.4g, calcium-108mg, iron-3mg.</p>
+                    </div>
+                </div>
+                <div id="matcha_cookies">
+                    <button onclick="expand('matcha_cookies')"><img src="image/icon/close-yellow.png" alt="close"></button>
+                    <img src="image/cookie/matcha_cookies.png" alt="matcha cookies">
+                    <div class="detail">
+                        <h4>Matcha Cookies</h4>
+                        <p><span>Price :</span> RM 13 / 10pcs</p>
+                        <p>Enjoy your afternoon tea with these crispy and buttery Matcha Green Tea Cookies. The unique flavor combination of matcha and white chocolate is surprisingly delightful!</p>
+                        <p><span>Ingredients :</span> Unsalted butter, sugar, egg yolks, all-purpose flour, seasalt, matcha powder, white chocolate chips.</p>
+                        <p><span>Nutrition(100g) :</span> Calories-426kcal, Carbohydrates-57.5g, protein-5.3g, fat-19.9g, cholesterol-82mg, sodium-150 mg, fiber-1g, sugar-28.1g, vitaminA-229 IU, vitaminC-1mg, calcium-9 mg, iron-1mg.</p>
+                    </div>
+                </div>
+                <div id="oreo_cookies">
+                    <button onclick="expand('oreo_cookies')"><img src="image/icon/close-yellow.png" alt="close"></button>
+                    <img src="image/cookie/oreo_cookies.png" alt="oreo cookies">
+                    <div class="detail">
+                        <h4>Oreo Cookies</h4>
+                        <p><span>Price :</span> RM 13 / 10pcs</p>
+                        <p>Some of the best cookies and cream cookies! Crispy on the outside and chewy on the inside.</p>
+                        <p><span>Ingredients :</span> Unsalted butter, sugar, eggs, vanilla extract, all-purpose flour, baking powder, baking soda,  seasalt, oreo.</p>
+                        <p><span>Nutrition(100g) :</span> Calories-483kcal, Carbohydrates-71g, protein-5g, fat-20g, sodium-554mg, fiber-1g, sugar-42g.</p>
+                    </div>
+                </div>
+                <div id="saltycheese_cookies">
+                    <button onclick="expand('saltycheese_cookies')"><img src="image/icon/close-yellow.png" alt="close"></button>
+                    <img src="image/cookie/saltycheese_cookies.png" alt="saltycheese cookies">
+                    <div class="detail">
+                        <h4>Saltycheese Cookies</h4>
+                        <p><span>Price :</span> RM 14 / 10pcs</p>
+                        <p>Cheesy and buttery with a little kick of spice. A uniquely delicious savory cookie that's perfect as an appetizer, on your cheese board, or even as an edible gift!</p>
+                        <p><span>Ingredients :</span> Salted butter, shredded sharp cheddar cheese, all-purpose flour, garlic powder, seasalt, sugar.</p>
+                        <p><span>Nutrition(100g) :</span> Calories-512kcal, Carbohydrates-45g, protein-14g, fat-31g, sodium-1000mg, sugar-2g.</p>
+                    </div>
+                </div>
+                <div id="saltyseaweed_cookies">
+                    <button onclick="expand('saltyseaweed_cookies')"><img src="image/icon/close-yellow.png" alt="close"></button>
+                    <img src="image/cookie/saltyseaweed_cookies.png" alt="saltyseaweed cookies">
+                    <div class="detail">
+                        <h4>Saltyseaweed Cookies</h4>
+                        <p><span>Price :</span> RM 13 / 10pcs</p>
+                        <p>Perfect cookie for fans of sweet and salty cookies. Every bite of these crispy sweet salty nutty buttery cookies is indeed very multidimensional!</p>
+                        <p><span>Ingredients :</span> Unsalted butter, sugar, egg yolks, all-purpose flour, seasalt, baking powder, cornflour, white sesame seed, seaweed.</p>
+                        <p><span>Nutrition(100g) :</span> Calories-510kcal, Carbohydrates-20g, protein-17g, fat-42.5g, sodium-170mg, fiber-17g, sugar-8g, vitaminA-4250mg, vitaminC-204mg, iron-6mg.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="intro">
+            <h3>Bakery</h3>
+            <img src="image/logo.png" alt="logo"><br>
+            <h4>THE BREAD BASKET</h4>
+            <a href="home.html">Home</a> | <a href="about_us.html">About Us</a> | <a href="faq.html">FAQ</a><br>
+            <span>Copyright &copy; 2022 The Bread Basket Bakery. All rights reserved<span>
+        </div>
+        <div class="contact">
+            <h3>Contact</h3>
+            <a href="https://www.google.com.my/maps/">
+                <img src="image/icon/location-yellow.png"><span> Address:</span>
+                <address>
+                9, Jalan USJ 50/3 UEP,<br>
+                47630, Subang Jaya,<br>
+                Selangor.
+                </address>
+                <br>
+            </a>
+            <a href="tel:+6034739560"><img src="image/icon/telephone-yellow.png"><span> Phone:</span> +603 473 9560</a><br><br>
+            <a href="mailto:thebreadbasket@gmail.com"><img src="image/icon/mail-yellow.png"><span> Email:</span> thebreadbasket@gmail.com</a>
+        </div>
+        <div class="about">
+            <h3>About the bakery</h3>
+            <div class="about-desc">
+                <p>Establishments producing and selling flour-based food like breads, cakes, and cookies are what bakeries are all about.</p>
+                <p>The objective of our bakery is to make the world a better place.</p>
+            </div>
+            <a href="https://www.facebook.com/" target="_blank"><img src="image/icon/facebook-yellow.png"></a>
+            <a href="https://www.twitter.com/" target="_blank"><img src="image/icon/twitter-yellow.png"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="image/icon/instagram-yellow.png"></a>
+            <a href="https://www.youtube.com/" target="_blank"><img src="image/icon/youtube-yellow.png"></a>
+        </div>
+    </div>
+</body>
+</html>

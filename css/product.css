@@ -1,0 +1,486 @@
+.vertical-nav {
+    display: block;
+    float: left;
+    border: #4a2e1d solid 3px;
+    box-shadow: 5px 5px 5px gray;
+    background-color: #4a2e1d;
+    border-radius: 10px;
+    width: 17%;
+    min-width: 150px;
+    max-width: 300px;
+    padding: 10px;
+    margin: 30px 10px 10px 30px;
+}
+
+.vertical-nav h3 {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 5px 0 10px 20px;
+    color: #eba834;
+}
+
+.vertical-nav li {
+    color: white;
+}
+
+.vertical-nav a {
+    display: block;
+    padding: 10px 0 10px 0;
+    color: white;
+    text-decoration: none;
+}
+
+.vertical-nav a:hover {
+    color: #8e939c;
+}
+
+.vertical-nav a.active {
+    color: #dbc8a0;
+    font-weight: bold;
+}
+
+.products-all {
+    display: block;
+    float: left;
+    width: 77%;
+    margin: 20px 10px;
+}
+
+/*bread*/
+.products-all .bread img {
+    display: block;
+    float: left;
+    margin: 10px;
+    border: #5e402d solid 2px;
+    border-radius: 15px;
+    height: 150px;
+    width: 200px;
+}
+
+.products-all .bread div {
+    display: block;
+    float: left;
+    margin: 10px 15px;
+    border: #5e402d solid 3px;
+    box-shadow: 5px 5px 5px gray;
+    background-color: #bf9265;
+    border-radius: 15px;
+    height: 280px;
+}
+
+.products-all .bread h4, .products-all .bread p{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.products-all .bread button {
+    display: block;
+    float: left;
+    width: 95%;
+    padding: 5px;
+    margin: 5px 5px 0 5px;
+    border: #5e402d solid 2px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.products-all .bread button:hover {
+    background-color: #dbc8a0;
+}
+
+/*cake*/
+.products-all .cake img {
+    display: block;
+    float: left;
+    margin: 10px;
+    border: #d6659c solid 2px;
+    border-radius: 15px;
+    height: 150px;
+    width: 200px;
+}
+
+.products-all .cake div {
+    display: block;
+    float: left;
+    margin: 10px 15px;
+    border: #d6659c solid 3px;
+    box-shadow: 5px 5px 5px gray;
+    background-color: #d9b0c3;
+    border-radius: 15px;
+    height: 280px;
+}
+
+.products-all .cake h4 {
+    font-size: 15px;
+}
+
+.products-all .cake h4, .products-all .cake p{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.products-all .cake button {
+    display: block;
+    float: left;
+    width: 95%;
+    padding: 5px;
+    margin: 5px 5px 0 5px;
+    border: #d6659c solid 2px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.products-all .cake button:hover {
+    background-color: #e8d5de;
+}
+
+/*cookie*/
+.products-all .cookie img {
+    display: block;
+    float: left;
+    margin: 10px;
+    border: #e8c425 solid 2px;
+    border-radius: 15px;
+    height: 150px;
+    width: 200px;
+}
+
+.products-all .cookie div {
+    display: block;
+    float: left;
+    margin: 10px 15px;
+    border: #e8c425 solid 3px;
+    box-shadow: 5px 5px 5px gray;
+    background-color: #eddb8a;
+    border-radius: 15px;
+    height: 280px;
+}
+
+.products-all .cookie h4, .products-all .cookie p{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.products-all .cookie button {
+    display: block;
+    float: left;
+    width: 95%;
+    padding: 5px;
+    margin: 5px 5px 0 5px;
+    border: #e8c425 solid 2px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.products-all .cookie button:hover {
+    background-color: #e6dcb1;
+}
+
+/*beverage*/
+.products-all .beverage img {
+    display: block;
+    float: left;
+    margin: 10px;
+    border: #4da6ff solid 2px;
+    border-radius: 15px;
+    height: 150px;
+    width: 200px;
+}
+
+.products-all .beverage div {
+    display: block;
+    float: left;
+    margin: 10px 15px;
+    border: #4da6ff solid 3px;
+    box-shadow: 5px 5px 5px gray;
+    background-color: #b3d9ff;
+    border-radius: 15px;
+    height: 280px;
+}
+
+.products-all .beverage h4, .products-all .beverage p{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.products-all .beverage button {
+    display: block;
+    float: left;
+    width: 95%;
+    padding: 5px;
+    margin: 5px 5px 0 5px;
+    border: #4da6ff solid 2px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.products-all .beverage button:hover {
+    background-color: #cce6ff;
+}
+
+
+/* desc bread */
+.description .bread div button {
+    position: absolute;
+    border: none;
+    width: 40px;
+    height: 40px;
+    padding: 3px;
+    right: 1px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.description .bread div {
+    display: none;
+    position: fixed;
+    height: 500px;
+    width: 700px;
+    border: #4a2e1d solid 2px;
+    border-radius: 10px;
+    background-color: white;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.description .bread div>img {
+    width: 200px;
+    height: 160px;
+    display: block;
+    margin: auto;
+    padding: 10px 0 10px 0;
+    border-radius: 15px;
+}
+
+.description .bread div button img {
+    width: 100%;
+    height: 100%;
+}
+
+.description .bread div .detail {
+    display: block;
+    position: fixed;
+    margin: 5px 10px 0 10px;
+    padding: 10px;
+    border: #4a2e1d dashed 2px;
+    border-radius: 5px;
+    background-color: #bf9265;
+    height: 325px;
+    width: 650px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-51%, -50%);
+}
+
+.description .bread div p {
+    padding: 10px 0;
+}
+
+.description .bread div span {
+    font-weight: bold;
+}
+
+
+/* desc cake */
+.description .cake div button {
+    position: absolute;
+    border: none;
+    width: 40px;
+    height: 40px;
+    padding: 3px;
+    right: 1px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.description .cake div {
+    display: none;
+    position: fixed;
+    height: 500px;
+    width: 700px;
+    border: #d6659c solid 2px;
+    border-radius: 10px;
+    background-color: white;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.description .cake div>img {
+    width: 200px;
+    height: 160px;
+    display: block;
+    margin: auto;
+    padding: 10px 0 10px 0;
+    border-radius: 15px;
+}
+
+.description .cake div button img {
+    width: 100%;
+    height: 100%;
+}
+
+.description .cake div .detail {
+    display: block;
+    position: fixed;
+    margin: 5px 10px 0 10px;
+    padding: 10px;
+    border: #d6659c dashed 2px;
+    border-radius: 5px;
+    background-color: #d9b0c3;
+    height: 325px;
+    width: 650px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-51%, -50%);
+}
+
+.description .cake div p {
+    padding: 10px 0;
+}
+
+.description .cake div span {
+    font-weight: bold;
+}
+
+/* desc cookie */
+.description .cookie div button {
+    position: absolute;
+    border: none;
+    width: 40px;
+    height: 40px;
+    padding: 3px;
+    right: 1px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.description .cookie div {
+    display: none;
+    position: fixed;
+    height: 500px;
+    width: 700px;
+    border: #e8c425 solid 2px;
+    border-radius: 10px;
+    background-color: white;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.description .cookie div>img {
+    width: 200px;
+    height: 160px;
+    display: block;
+    margin: auto;
+    padding: 10px 0 10px 0;
+    border-radius: 15px;
+}
+
+.description .cookie div button img {
+    width: 100%;
+    height: 100%;
+}
+
+.description .cookie div .detail {
+    display: block;
+    position: fixed;
+    margin: 5px 10px 0 10px;
+    padding: 10px;
+    border: #e8c425 dashed 2px;
+    border-radius: 5px;
+    background-color: #eddb8a;
+    height: 325px;
+    width: 650px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-51%, -50%);
+}
+
+.description .cookie div p {
+    padding: 10px 0;
+}
+
+.description .cookie div span {
+    font-weight: bold;
+}
+
+/* desc beverage */
+.description .beverage div button {
+    position: absolute;
+    border: none;
+    width: 40px;
+    height: 40px;
+    padding: 3px;
+    right: 1px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.description .beverage div {
+    display: none;
+    position: fixed;
+    height: 500px;
+    width: 700px;
+    border: #4da6ff solid 2px;
+    border-radius: 10px;
+    background-color: white;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.description .beverage div>img {
+    width: 200px;
+    height: 160px;
+    display: block;
+    margin: auto;
+    padding: 10px 0 10px 0;
+    border-radius: 15px;
+}
+
+.description .beverage div button img {
+    width: 100%;
+    height: 100%;
+}
+
+.description .beverage div .detail {
+    display: block;
+    position: fixed;
+    margin: 5px 10px 0 10px;
+    padding: 10px;
+    border: #4da6ff dashed 2px;
+    border-radius: 5px;
+    background-color: #b3d9ff;
+    height: 325px;
+    width: 650px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-51%, -50%);
+}
+
+.description .beverage div p {
+    padding: 10px 0;
+}
+
+.description .beverage div span {
+    font-weight: bold;
+}

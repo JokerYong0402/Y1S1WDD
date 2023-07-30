@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Bread Basket</title>
+    <link href="image/bread.ico" rel="icon" type="image/x-icon">
+    <link href="css/nav.css" rel="stylesheet">
+    <link href="css/product.css" rel="stylesheet">
+    <script src="js/expand.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="header">
+        <a href="tel:+6034739560"><img src="image/icon/telephone-white.png" alt="tel"> +603 473 9560</a>
+        <a href="about_us.html"><img src="image/icon/operation-white.png" alt="operation"> Mon - Sat: 7.00 - 17.00</a>
+        <a href="mailto:thebreadbasket@gmail.com"><img src="image/icon/mail-white.png" alt="mail"> thebreadbasket@gmail.com</a>
+    </div>
+
+    <div class="logo">
+        <a href="home.html"><img src="image/logo.png" alt="logo"></a>
+    </div>
+    
+    <div class="topnav">
+        <a href="home.html">HOME</a>
+        <a href="about_us.html">ABOUT US</a>
+        <div class="products">
+            <a href="products.html" >PRODUCTS &#8600;</a>
+            <div class="catogories">
+                <a href="product_bread.html">Bread</a>
+                <a class="active" href="product_cake.html">Cake</a>
+                <a href="product_cookie.html">Cookie</a>
+                <a href="product_beverage.html">Beverage</a>
+            </div>
+        </div>
+        <a href="membership.html">MEMBERSHIP</a>
+        <a href="faq.html">FAQ</a>
+        <a href="feedback.html">FEEDBACK</a>
+        <a href="live_chat.html">CHAT</a>
+        <a href="cart.html"><img src="image/icon/cart-brown.png" alt="cart"> CART</a>
+    </div>
+
+    <div class="content">
+        <div class="vertical-nav">
+            <h3>Catogories</h3>
+            <ul>
+                <li><a href="products.html">All</a></li>
+                <li><a href="product_bread.html">Bread</a></li>
+                <li><a class="active" href="product_cake.html">Cake</a></li>
+                <li><a href="product_cookie.html">Cookie</a></li>
+                <li><a href="product_beverage.html">Beverage</a></li>
+            </ul>
+        </div>
+        <div class="products-all">
+            <div class="cake">
+                <div class="cake_1">
+                    <img src="image/cake/cake1.png" alt="cake 1">
+                    <h4>Peach Ice Cream Cake</h4>
+                    <p>From RM 110</p>
+                    <button onclick="expand('cake_1')">Description</button>
+                    
+                </div>
+                <div class="cake_2">
+                    <img src="image/cake/cake2.png" alt="cake 2">
+                    <h4>Rose Mousse Cake</h4>
+                    <p>From RM 69</p>
+                    <button onclick="expand('cake_2')">Description</button>
+                    
+                </div>
+                <div class="cake_3">
+                    <img src="image/cake/cake3.png" alt="cake 3">
+                    <h4>Mango Passion Fruit Cake</h4>
+                    <p>From RM 69</p>
+                    <button onclick="expand('cake_3')">Description</button>
+                    
+                </div>
+                <div class="cake_4">
+                    <img src="image/cake/cake4.png" alt="cake 4">
+                    <h4>Strawberry Mousse Cake</h4>
+                    <p>From RM 99</p>
+                    <button onclick="expand('cake_4')">Description</button>
+                    
+                </div>
+                <div class="cake_5" id="best">
+                    <img src="image/cake/cake5.png" alt="cake 5">
+                    <h4>Mint Chocolate Cake</h4>
+                    <p>From RM 69</p>
+                    <button onclick="expand('cake_5')">Description</button>
+                    
+                </div>
+                <div class="cake_6">
+                    <img src="image/cake/cake6.png" alt="cake 6">
+                    <h4>Raspberry Coulis Cake</h4>
+                    <p>From RM 49</p>
+                    <button onclick="expand('cake_6')">Description</button>
+                    
+                </div>
+                <div class="cake_7">
+                    <img src="image/cake/cake7.png" alt="cake 7">
+                    <h4>Matcha Red Bean Cake</h4>
+                    <p>From RM 79</p>
+                    <button onclick="expand('cake_7')">Description</button>
+                    
+                </div>
+                <div class="cake_8">
+                    <img src="image/cake/cake8.png" alt="cake 8">
+                    <h4>Yuzu Gin Sorbet Cake</h4>
+                    <p>From RM 109</p>
+                    <button onclick="expand('cake_8')">Description</button>
+                    
+                </div>
+                <div class="cake_9">
+                    <img src="image/cake/cake9.png" alt="cake 9">
+                    <h4>Peanut Caramel Cake</h4>
+                    <p>From RM 59</p>
+                    <button onclick="expand('cake_9')">Description</button>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="description">
+            <div class="cake">
+                <div id="cake_1">
+                    <button onclick="expand('cake_1')"><img src="image/icon/close-pink.png" alt="close"></button>
+                    <img src="image/cake/cake1.png" alt="cake 1">
+                    <div class="detail">
+                        <h4>Peach Ice Cream Cake</h4>
+                        <p><span>Price :</span> RM 110/0.5kg, RM 140/1.0kg, RM 160/1.5kg</p>
+                        <p>A pastel pink cake decorated with candy sprinkles and made with yogurt ice cream, so you need to freeze it and eat quickly.</p>
+                        <p><span>Ingredients :</span> Flour, butter, milk, baking soda, sugar, eggs,vanilla essence, cremes, peach, yogurt and candy sprinkles.</p>
+                        <p><span>Nutrition(100g) :</span> Calories- 330 kcal, fat-11.4mg , cholesterol-50mg, sodium-180mg, potassium-36mg, carbohydrates 38g, fiber 0.2g, sugars 28g, protein 2g,vitamin A-1.4mg, calcium-3.2mg, iron-4mg.</p>
+                    </div>
+                </div>
+                <div id="cake_2">
+                    <button onclick="expand('cake_2')"><img src="image/icon/close-pink.png" alt="close"></button>
+                    <img src="image/cake/cake2.png" alt="cake 2">
+                    <div class="detail">
+                        <h4>Rose Mousse Cake</h4>
+                        <p><span>Price :</span> RM 69/0.5kg, RM 99/1.0kg, RM 119/1.5kg</p>
+                        <p>A classic design with rose petal element, and it has 3 layers for peach mince and strawberry mince with cream.</p>
+                        <p><span>Ingredients :</span> Flour, butter, milk, whipped cream, baking soda, marzipan, sugar, eggs, rose essence, peach mince and strawberry mince.</p>
+                        <p><span>Nutrition(100g) :</span> Calories- 310 kcal, fat-10.4mg , cholesterol-43 mg, sodium-150 mg, potassium-32mg, carbohydrates 30g, fiber 0.2g, sugars 25g, protein 2g,vitamin A-1.4mg, calcium-3.2mg, iron-4mg.</p>
+                    </div>
+                </div>
+                <div id="cake_3">
+                    <button onclick="expand('cake_3')"><img src="image/icon/close-pink.png" alt="close"></button>
+                    <img src="image/cake/cake3.png" alt="cake 3">
+                    <div class="detail">
+                        <h4>Mango Passion Fruit Cake</h4>
+                        <p><span>Price :</span> RM 69/0.5kg, RM 99/1.0kg, RM 119/1.5kg</p>
+                        <p>A simple design with white background and some flower additions This is a sweet and sour cake and it is suitable for those who like sour.</p>
+                        <p><span>Ingredients :</span> Flour, butter, milk, baking soda, sugar, eggs, vanilla essence, cremes, mango mince and  passion fruit sauce.</p>
+                        <p><span>Nutrition(100g) :</span> Calories- 298 kcal, fat-10mg , cholesterol-41 mg, sodium-130 mg, potassium-30mg, carbohydrates 29g, fiber 0.1g, sugars 29g, protein 2g,vitamin A-1.4mg, calcium-3.2mg, iron-4mg.</p>
+                    </div>
+                </div>
+                <div id="cake_4">
+                    <button onclick="expand('cake_4')"><img src="image/icon/close-pink.png" alt="close"></button>
+                    <img src="image/cake/cake4.png" alt="cake 4">
+                    <div class="detail">
+                        <h4>Strawberry Mousse Cake</h4>
+                        <p><span>Price :</span> RM 99/0.5kg, RM 129/1.0kg, RM 149/1.5kg</p>
+                        <p>The cake is light, springy, soft, and fluffy. The reduced strawberry puree will tint the cake batter a lovely pastel pink and use the white cream. When cut it, you can see layers after layers.</p>
+                        <p><span>Ingredients :</span> Flour, butter, milk, baking soda, marzipan, sugar icing, sugar, eggs, vanilla essence, cremes, strawberry mince, strawberries and candy sprinkles.</p>
+                        <p><span>Nutrition(100g) :</span> Calories- 330 kcal, fat-14.2mg , cholesterol-48 mg, sodium-153 mg, potassium-44mg, carbohydrates 41g, fiber 0.3g, sugars 30g, protein 2g,vitamin A-1.4mg, calcium-3.2mg, iron-4m.</p>
+                    </div>
+                </div>
+                <div id="cake_5">
+                    <button onclick="expand('cake_5')"><img src="image/icon/close-pink.png" alt="close"></button>
+                    <img src="image/cake/cake5.png" alt="cake 5">
+                    <div class="detail">
+                        <h4>Mint Chocolate Cake</h4>
+                        <p><span>Price :</span> RM 69/0.5kg, RM 99/1.0kg, RM 119/1.5kg</p>
+                        <p>A smooth coating of creamy mint buttercream with  real chocolate flecks, a generous drizzle of dark chocolate ganache and a gathering of choc mint cookies.</p>
+                        <p><span>Ingredients :</span> Flour, butter, milk, baking soda, sugar, egg, mint essence, cremes and chocolate chip.</p>
+                        <p><span>Nutrition(100g) :</span> Calories- 355 kcal, fat-15mg , cholesterol-52 mg, sodium-150 mg, potassium-45mg, carbohydrates 33g, fiber 0.25g, sugars 42g, protein 5g,vitamin A-1.8mg, calcium-3.5mg, iron-3mg.</p>
+                    </div>
+                </div>
+                <div id="cake_6">
+                    <button onclick="expand('cake_6')"><img src="image/icon/close-pink.png" alt="close"></button>
+                    <img src="image/cake/cake6.png" alt="cake 6">
+                    <div class="detail">
+                        <h4>Raspberry Coulis Cake</h4>
+                        <p><span>Price :</span> RM 49/0.5kg, RM 79/1.0kg, RM 99/1.5kg</p>
+                        <p>It was deliciously sweet and tart, and the perfect consistency to fill a cake. The old school style outside with white background is simpel. Inside the cake has rasberry and the color of the cake is red.</p>
+                        <p><span>Ingredients :</span> Flour, butter, milk, baking soda, sugar, eggs, vanilla essence, cremes, raspberry mince and strawberry.</p>
+                        <p><span>Nutrition(100g) :</span> Calories- 330 kcal, fat-13.2mg , cholesterol-48 mg, sodium-153 mg, potassium-44mg, carbohydrates 40g, fiber 0.3g, sugars 30g, protein 2g,vitamin A-1.4mg, calcium-3.2mg, iron-4mg.</p>
+                    </div>
+                </div>
+                <div id="cake_7">
+                    <button onclick="expand('cake_7')"><img src="image/icon/close-pink.png" alt="close"></button>
+                    <img src="image/cake/cake7.png" alt="cake 7">
+                    <div class="detail">
+                        <h4>Matcha Red Bean Cake</h4>
+                        <p><span>Price :</span> RM 79/0.5kg, RM 109/1.0kg, RM 129/1.5kg</p>
+                        <p>The matcha is a favorite flavor of the customer. Between the layer and layer have red beans.</p>
+                        <p><span>Ingredients :</span> Flour, butter, milk, baking soda, sugar, eggs, vanilla essence, cremes, matcha powder and red bean.</p>
+                        <p><span>Nutrition(100g) :</span> Calories- 270 kcal, fat-11mg , cholesterol-52 mg, sodium-150 mg, potassium-45mg, carbohydrates 33g, fiber 0.25g, sugars 32g, protein 5g,vitamin A-1.8mg, calcium-3.5mg, iron-3mg.</p>
+                    </div>
+                </div>
+                <div id="cake_8">
+                    <button onclick="expand('cake_8')"><img src="image/icon/close-pink.png" alt="close"></button>
+                    <img src="image/cake/cake8.png" alt="cake 8">
+                    <div class="detail">
+                        <h4>Yuzu Gin Sorbet Cake</h4>
+                        <p><span>Price :</span> RM 109/0.5kg, RM 139/1.0kg, RM 159/1.5kg</p>
+                        <p>It is a sky blue background with colorful candy sprinkles.The smell of the yuzu are very fragrant.With a bright tart unique citrus flavor, Yuzu Sorbet makes an irresistibly tasty dessert that refreshes the palate.</p>
+                        <p><span>Ingredients :</span> Flour, butter, milk, baking soda, sugar, eggs, yuzu essence, cremes,yuzu mince and lemon.</p>
+                        <p><span>Nutrition(100g) :</span> Calories- 298 kcal, fat-10mg , cholesterol-41 mg, sodium-130 mg, potassium-30mg, carbohydrates 30g, fiber 0.1g, sugars 29g, protein 2g,vitamin A-1.4mg, calcium-3.2mg, iron-4mg.</p>
+                    </div>
+                </div>
+                <div id="cake_9">
+                    <button onclick="expand('cake_9')"><img src="image/icon/close-pink.png" alt="close"></button>
+                    <img src="image/cake/cake9.png" alt="cake 9">
+                    <div class="detail">
+                        <h4>Peanut Caramel Cake</h4>
+                        <p><span>Price :</span> RM 59/0.5kg, RM 89/1.0kg, RM 109/1.5kg</p>
+                        <p>A sprinkle chopped peanuts in between the layers and place on a freezer safe plate. Ice cake with caramel icing.</p>
+                        <p><span>Ingredients :</span> Flour, butter, milk, baking soda, sugar, eggs , almond bark, chocolate and corn syrup.</p>
+                        <p><span>Nutrition(100g) :</span>  Calories- 269 kcal, fat-12mg , cholesterol-49 mg, sodium-140 mg, potassium-45mg, carbohydrates 31g, fiber 0.1g, sugars 32g, protein 4g,vitamin A-1.8mg, calcium-3.5mg, iron-2mg.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="intro">
+            <h3>Bakery</h3>
+            <img src="image/logo.png" alt="logo"><br>
+            <h4>THE BREAD BASKET</h4>
+            <a href="home.html">Home</a> | <a href="about_us.html">About Us</a> | <a href="faq.html">FAQ</a><br>
+            <span>Copyright &copy; 2022 The Bread Basket Bakery. All rights reserved<span>
+        </div>
+        <div class="contact">
+            <h3>Contact</h3>
+            <a href="https://www.google.com.my/maps/">
+                <img src="image/icon/location-yellow.png"><span> Address:</span>
+                <address>
+                9, Jalan USJ 50/3 UEP,<br>
+                47630, Subang Jaya,<br>
+                Selangor.
+                </address>
+                <br>
+            </a>
+            <a href="tel:+6034739560"><img src="image/icon/telephone-yellow.png"><span> Phone:</span> +603 473 9560</a><br><br>
+            <a href="mailto:thebreadbasket@gmail.com"><img src="image/icon/mail-yellow.png"><span> Email:</span> thebreadbasket@gmail.com</a>
+        </div>
+        <div class="about">
+            <h3>About the bakery</h3>
+            <div class="about-desc">
+                <p>Establishments producing and selling flour-based food like breads, cakes, and cookies are what bakeries are all about.</p>
+                <p>The objective of our bakery is to make the world a better place.</p>
+            </div>
+            <a href="https://www.facebook.com/" target="_blank"><img src="image/icon/facebook-yellow.png"></a>
+            <a href="https://www.twitter.com/" target="_blank"><img src="image/icon/twitter-yellow.png"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="image/icon/instagram-yellow.png"></a>
+            <a href="https://www.youtube.com/" target="_blank"><img src="image/icon/youtube-yellow.png"></a>
+        </div>
+    </div>
+</body>
+</html>

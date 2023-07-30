@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Bread Basket</title>
+    <link href="image/bread.ico" rel="icon" type="image/x-icon">
+    <link href="css/nav.css" rel="stylesheet">
+    <link href="css/product.css" rel="stylesheet">
+    <script src="js/expand.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="header">
+        <a href="tel:+6034739560"><img src="image/icon/telephone-white.png" alt="tel"> +603 473 9560</a>
+        <a href="about_us.html"><img src="image/icon/operation-white.png" alt="operation"> Mon - Sat: 7.00 - 17.00</a>
+        <a href="mailto:thebreadbasket@gmail.com"><img src="image/icon/mail-white.png" alt="mail"> thebreadbasket@gmail.com</a>
+    </div>
+
+    <div class="logo">
+        <a href="home.html"><img src="image/logo.png" alt="logo"></a>
+    </div>
+    
+    <div class="topnav">
+        <a href="home.html">HOME</a>
+        <a href="about_us.html">ABOUT US</a>
+        <div class="products">
+            <a class="active" href="products.html" >PRODUCTS &#8600;</a>
+            <div class="catogories">
+                <a href="product_bread.html">Bread</a>
+                <a href="product_cake.html">Cake</a>
+                <a href="product_cookie.html">Cookie</a>
+                <a href="product_beverage.html">Beverage</a>
+            </div>
+        </div>
+        <a href="membership.html">MEMBERSHIP</a>
+        <a href="faq.html">FAQ</a>
+        <a href="feedback.html">FEEDBACK</a>
+        <a href="live_chat.html">CHAT</a>
+        <a href="cart.html"><img src="image/icon/cart-brown.png" alt="cart"> CART</a>
+    </div>
+
+    <div class="content">
+        <div class="vertical-nav">
+            <h3>Catogories</h3>
+            <ul>
+                <li><a class="active" href="products.html">All</a></li>
+                <li><a href="product_bread.html">Bread</a></li>
+                <li><a href="product_cake.html">Cake</a></li>
+                <li><a href="product_cookie.html">Cookie</a></li>
+                <li><a href="product_beverage.html">Beverage</a></li>
+            </ul>
+        </div>
+        <div class="products-all">
+            <div class="bread">
+                <div class="baconcheese_rolls">
+                    <img src="image/bread/baconcheese_rolls.png" alt="baconcheese rolls">
+                    <h4>Baconcheese Rolls</h4>
+                    <p>RM 4.50</p>
+                    <button onclick="expand('baconcheese_rolls')">Description</button>
+                    
+                </div>
+                <div class="cheesecurry_bun">
+                    <img src="image/bread/cheesecurry_bun.png" alt="cheesecurry bun">
+                    <h4>Cheesecurry Bun</h4>
+                    <p>RM 5.90</p>
+                    <button onclick="expand('cheesecurry_bun')">Description</button>
+                    
+                </div>
+                <div class="cheesepotato_bun">
+                    <img src="image/bread/cheesepotato_bun.png" alt="cheesepotato bun">
+                    <h4>Cheesepotato Bun</h4>
+                    <p>RM 5.00</p>
+                    <button onclick="expand('cheesepotato_bun')">Description</button>
+                    
+                </div>
+                <div class="chocochip_bun">
+                    <img src="image/bread/chocochip_bun.png" alt="chocochip bun">
+                    <h4>Chocochip Bun</h4>
+                    <p>RM 4.50</p>
+                    <button onclick="expand('chocochip_bun')">Description</button>
+                    
+                </div>
+                <div class="croissant">
+                    <img src="image/bread/croissant.png" alt="croissant">
+                    <h4>Croissant</h4>
+                    <p>RM 4.00</p>
+                    <button onclick="expand('croissant')">Description</button>
+                    
+                </div>
+                <div class="grainnuts_bun">
+                    <img src="image/bread/grainnuts_bun.png" alt="grainnuts bun">
+                    <h4>Grainnuts Bun</h4>
+                    <p>RM 4.90</p>
+                    <button onclick="expand('grainnuts_bun')">Description</button>
+                    
+                </div>
+                <div class="ham_toast">
+                    <img src="image/bread/ham_toast.png" alt="ham toast">
+                    <h4>Ham Toast</h4>
+                    <p>RM 5.60</p>
+                    <button onclick="expand('ham_toast')">Description</button>
+                    
+                </div>
+                <div class="matcha_twist">
+                    <img src="image/bread/matcha_twist.png" alt="matcha twist">
+                    <h4>Matcha Twist</h4>
+                    <p>RM 5.90</p>
+                    <button onclick="expand('matcha_twist')">Description</button>
+                    
+                </div>
+                <div class="milkpeanut_toast">
+                    <img src="image/bread/milkpeanut_toast.png" alt="milkpeanut toast">
+                    <h4>Milkpeanut Toast</h4>
+                    <p>RM 4.50</p>
+                    <button onclick="expand('milkpeanut_toast')">Description</button>
+                    
+                </div>
+                <div class="pineapple_bun">
+                    <img src="image/bread/pineapple_bun.png" alt="pineapple bun">
+                    <h4>Pineapple Bun</h4>
+                    <p>RM 5.30</p>
+                    <button onclick="expand('pineapple_bun')">Description</button>
+                    
+                </div>
+                <div class="redbean_bun">
+                    <img src="image/bread/redbean_bun.png" alt="redbean bun">
+                    <h4>Redbean Bun</h4>
+                    <p>RM 2.50</p>
+                    <button onclick="expand('redbean_bun')">Description</button>
+                    
+                </div>
+                <div class="sausage_bun">
+                    <img src="image/bread/sausage_bun.png" alt="sausage bun">
+                    <h4>Sausage Bun</h4>
+                    <p>RM 3.50</p>
+                    <button onclick="expand('sausage_bun')">Description</button>
+                    
+                </div>
+                <div class="wheatwalnuts_toast">
+                    <img src="image/bread/wheatwalnuts_toast.png" alt="wheatwalnuts toast">
+                    <h4>Wheatwalnuts Toast</h4>
+                    <p>RM 5.50</p>
+                    <button onclick="expand('wheatwalnuts_toast')">Description</button>
+                    
+                </div>
+            </div>
+            <div class="cake">
+                <div class="cake_1">
+                    <img src="image/cake/cake1.png" alt="cake 1">
+                    <h4>Peach Ice Cream Cake</h4>
+                    <p>From RM 110</p>
+                    <button onclick="expand('cake_1')">Description</button>
+                    
+                </div>
+                <div class="cake_2">
+                    <img src="image/cake/cake2.png" alt="cake 2">
+                    <h4>Rose Mousse Cake</h4>
+                    <p>From RM 69</p>
+                    <button onclick="expand('cake_2')">Description</button>
+                    
+                </div>
+                <div class="cake_3">
+                    <img src="image/cake/cake3.png" alt="cake 3">
+                    <h4>Mango Passion Fruit Cake</h4>
+                    <p>From RM 69</p>
+                    <button onclick="expand('cake_3')">Description</button>
+                    
+                </div>
+                <div class="cake_4">
+                    <img src="image/cake/cake4.png" alt="cake 4">
+                    <h4>Strawberry Mousse Cake</h4>
+                    <p>From RM 99</p>
+                    <button onclick="expand('cake_4')">Description</button>
+                    
+                </div>
+                <div class="cake_5">
+                    <img src="image/cake/cake5.png" alt="cake 5">
+                    <h4>Mint Chocolate Cake</h4>
+                    <p>From RM 69</p>
+                    <button onclick="expand('cake_5')">Description</button>
+                    
+                </div>
+                <div class="cake_6">
+                    <img src="image/cake/cake6.png" alt="cake 6">
+                    <h4>Raspberry Coulis Cake</h4>
+                    <p>From RM 49</p>
+                    <button onclick="expand('cake_6')">Description</button>
+                    
+                </div>
+                <div class="cake_7">
+                    <img src="image/cake/cake7.png" alt="cake 7">
+                    <h4>Matcha Red Bean Cake</h4>
+                    <p>From RM 79</p>
+                    <button onclick="expand('cake_7')">Description</button>
+                    
+                </div>
+                <div class="cake_8">
+                    <img src="image/cake/cake8.png" alt="cake 8">
+                    <h4>Yuzu Gin Sorbet Cake</h4>
+                    <p>From RM 109</p>
+                    <button onclick="expand('cake_8')">Description</button>
+                    
+                </div>
+                <div class="cake_9">
+                    <img src="image/cake/cake9.png" alt="cake 9">
+                    <h4>Peanut Caramel Cake</h4>
+                    <p>From RM 59</p>
+                    <button onclick="expand('cake_9')">Description</button>
+                    
+                </div>
+            </div>
+            <div class="cookie">
+                <div class="chocochip_cookies">
+                    <img src="image/cookie/chocochip_cookies.png" alt="chocochip cookies">
+                    <h4>Chocochip Cookies</h4>
+                    <p>RM 12 / 10pcs</p>
+                    <button onclick="expand('chocochip_cookies')">Description</button>
+                    
+                </div>
+                <div class="cranberry_cookies">
+                    <img src="image/cookie/cranberry_cookies.png" alt="cranberry cookies">
+                    <h4>Cranberry Cookies</h4>
+                    <p>RM 15 / 10pcs</p>
+                    <button onclick="expand('cranberry_cookies')">Description</button>
+                    
+                </div>
+                <div class="garlic_cookies">
+                    <img src="image/cookie/garlic_cookies.png" alt="garlic cookies">
+                    <h4>Garlic Cookies</h4>
+                    <p>RM 13 / 10pcs</p>
+                    <button onclick="expand('garlic_cookies')">Description</button>
+                    
+                </div>
+                <div class="matcha_cookies">
+                    <img src="image/cookie/matcha_cookies.png" alt="matcha cookies">
+                    <h4>Matcha Cookies</h4>
+                    <p>RM 13 / 10pcs</p>
+                    <button onclick="expand('matcha_cookies')">Description</button>
+                    
+                </div>
+                <div class="oreo_cookies">
+                    <img src="image/cookie/oreo_cookies.png" alt="oreo cookies">
+                    <h4>Oreo Cookies</h4>
+                    <p>RM 13 / 10pcs</p>
+                    <button onclick="expand('oreo_cookies')">Description</button>
+                    
+                </div>
+                <div class="saltycheese_cookies">
+                    <img src="image/cookie/saltycheese_cookies.png" alt="saltycheese cookies">
+                    <h4>Saltycheese Cookies</h4>
+                    <p>RM 14 / 10pcs</p>
+                    <button onclick="expand('saltycheese_cookies')">Description</button>
+                    
+                </div>
+                <div class="saltyseaweed_cookies">
+                    <img src="image/cookie/saltyseaweed_cookies.png" alt="saltyseaweed cookies">
+                    <h4>Saltyseaweed Cookies</h4>
+                    <p>RM 13 / 10pcs</p>
+                    <button onclick="expand('saltyseaweed_cookies')">Description</button>
+                    
+                </div>
+            </div>
+            <div class="beverage">
+                <div class="caramel_macchiato">
+                    <img src="image/beverage/caramel_macchiato.jpeg" alt="orange soda coffee">
+                    <h4>Orange Soda Coffee</h4>
+                    <p>RM 8.50</p>
+                    <button onclick="expand('caramel_macchiato')">Description</button>
+                    
+                </div>
+                <div class="green_orange_coffee">
+                    <img src="image/beverage/green_orange_coffee.jpeg" alt="green orange coffee">
+                    <h4>Green Orange Coffee</h4>
+                    <p>RM 8.00</p>
+                    <button onclick="expand('green_orange_coffee')">Description</button>
+                    
+                </div>
+                <div class="green_plum_tea_coffee">
+                    <img src="image/beverage/green_plum_tea_coffee.jpeg" alt="green plum tea coffee">
+                    <h4>Green Plum Tea Coffee</h4>
+                    <p>RM 8.00</p>
+                    <button onclick="expand('green_plum_tea_coffee')">Description</button>
+                    
+                </div>
+                <div class="latte">
+                    <img src="image/beverage/latte.jpeg" alt="latte">
+                    <h4>Latte</h4>
+                    <p>RM 7.00</p>
+                    <button onclick="expand('latte')">Description</button>
+                    
+                </div>
+                <div class="lemon_soda_coffee">
+                    <img src="image/beverage/lemon_soda_coffee.jpeg" alt="lemon soda coffee">
+                    <h4>Lemon Soda Coffee</h4>
+                    <p>RM 7.00</p>
+                    <button onclick="expand('lemon_soda_coffee')">Description</button>
+                    
+                </div>
+                <div class="orange_soda_coffee">
+                    <img src="image/beverage/orange_soda_coffee.jpeg" alt="orange soda coffee">
+                    <h4>Orange Soda Coffee</h4>
+                    <p>RM 6.00</p>
+                    <button onclick="expand('orange_soda_coffee')">Description</button>
+                    
+                </div>
+                <div class="soya_coffee_latte">
+                    <img src="image/beverage/soya_coffee_latte.jpeg" alt="soya coffee latte">
+                    <h4>Soya Coffee Latte</h4>
+                    <p>RM 8.00</p>
+                    <button onclick="expand('soya_coffee_latte')">Description</button>
+                    
+                </div>
+                <div class="yakult_coffee">
+                    <img src="image/beverage/yakult_coffee.jpeg" alt="yakult coffee">
+                    <h4>Yakult Coffee</h4>
+                    <p>RM 8.50</p>
+                    <button onclick="expand('yakult_coffee')">Description</button>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="description">
+            <div class="bread">
+                <div id="baconcheese_rolls">
+                    <button onclick="expand('baconcheese_rolls')"><img src="image/icon/close-brown.png" alt="close"></button>
+                    <img src="image/bread/baconcheese_rolls.png" alt="baconcheese rolls">
+                    <div class="detail">
+                        <h4>Baconcheese Rolls</h4>
+                        <p><span>Price :</span> RM 4.50</p>
+                        <p>Bacon cheese rolls are topped with cheese and inside stuffed with bacon and it has a crispy crust.</p>
+                        <p><span>Ingredients :</span> Yeast, sugar, water, bread flour, seasalt, olive oil, eggs, bacon, cheese.</p>
+                        <p><span>Nutrition(100g) :</span> Calories-259kcal, Carbohydrates-29g, protein-16g, fat-8g, cholesterol-32mg, sodium-999mg, fiber-2g, sugar-4g, vitaminA-250IU, calcium-160mg, iron-2mg.</p>
+                    </div>
+                </div>
+                <div id="cheesecurry_bun">
+                    <button onclick="expand('cheesecurry_bun')"><img src="image/icon/close-brown.png" alt="close"></button>
+                    <img src="image/bread/cheesecurry_bun.png" alt="cheesecurry bun">
+                    <div class="detail">
+                        <h4>Cheesecurry Bun</h4>
+                        <p><span>Price :</span> RM 5.90</p>
+                        <p>The bun wrapped in curry chicken, sandwiched with cheese and stringy, outside of it is crispy.</p>
+                        <p><span>Ingredients :</span> Curry filling- oil, onion, garlic, shallot, curry leaves, chicken, potato, curry powder, chili powder, coriander powder, bread dough-milk, sugar, yeast, bread flour, seasalt, eggs, salted butter, cheese.</p>
+                        <p><span>Nutrition(100g) :</span> Calories-300kcal, Carbohydrates-35g, protein-14g, fat-10g, cholesterol-35 mg, sodium-550 mg, fiber-1g, sugar-10g.</p>
+                    </div>
+                </div>
+                <div id="cheesepotato_bun">
+                    <button onclick="expand('cheesepotato_bun')"><img src="image/icon/close-brown.png" alt="close"></button>
+                    <img src="image/bread/cheesepotato_bun.png" alt="cheesepotato bun">
+                    <div class="detail">
+                        <h4>Cheesepotato Bun</h4>
+                        <p><span>Price :</span> RM 5.00</p>
+                        <p>This cheese potato bun is soft, with a golden-brown crust and it is cheesy, garlicky and delicious.</p>
+                        <p><span>Ingredients :</span> Yeast, seasalt, eggs, parsley, milk, sugar, salted butter, all-purpose flour, cheese, potato.</p>
+                        <p><span>Nutrition(100g) :</span> Calories-272.7kcal, Carbohydrates-47.7g, protein-9.1g, fat-4.5g, sodium-613.6mg, fiber-1.1g, sugar-6.8g, calcium-90.9mg, iron2.5mg.</p>
+                    </div>
+                </div>
+                <div id="chocochip_bun">
+                    <button onclick="expand('chocochip_bun')"><img src="image/icon/close-brown.png" alt="close"></button>
+                    <img src="image/bread/chocochip_bun.png" alt="chocochip bun">
+                    <div class="detail">
+                        <h4>Chocochip Bun</h4>
+                        <p><span>Price :</span> RM 4.50</p>
+                        <p>The Chocochip bun is extremely fluffy, soft, light, not too sweet and highly addictive.</p>
+                        <p><span>Ingredients :</span> Sugar, milk, all-purpose flour, seasalt, eggs, salted butter, yeast, lemon, chocolate chips.</p>
+                        <p><span>Nutrition(100g) :</span> Calories-331kcal, Carbohydrates-51g, protein-6g, fat-12g, sodium-382mg, fiber-4g, sugar-21g, cholesterol-1mg.</p>
+                    </div>
+                </div>
+                <div id="croissant">
+                    <button onclick="expand('croissant')"><img src="image/icon/close-brown.png" alt="close"></button>
+                    <img src="image/bread/croissant.png" alt="croissant">
+                    <div class="detail">
+                        <h4>Croissant</h4>
+                        <p><span>Price :</span> RM 4.00</p>
+                        <p>Croissants are light, flaky, and delicately sweet. You can enjoy it with a cup of coffee.</p>
+                        <p><span>Ingredients :</span> Unsalted butter, sugar, eggs, all-purpose flour, sea salt, yeast, whole milk.</p>
+                        <p><span>Nutrition(100g) :</span> Calories-413kcal, Carbohydrates-47g, protein-8g, fat-21.3g, cholesterol-60mg, sodium-427mg, fiber-1g, sugar-12g, calcium-13 mg, iron-1mg.</p>
+                    </div>
+                </div>
+                <div id="grainnuts_bun">
+                    <button onclick="expand('grainnuts_bun')"><img src="image/icon/close-brown.png" alt="close"></button>
+                    <img src="image/bread/grainnuts_bun.png" alt="grainnuts bun">
+                    <div class="detail">
+                        <h4>Grainnuts Bun</h4>
+                        <p><span>Price :</span> RM 4.90</p>
+                        <p>The grain nut buns contain many carbohydrates, it will be easy feeling fulfill after ate it.</p>
+                        <p><span>Ingredients :</span> Yeast, water, sugar, bread flour, seasalt, baking powder, walnut, pumpkin seeds.</p>
+                        <p><span>Nutrition(100g) :</span> Calories-200kcal, Carbohydrates-45g, protein-9.3g, fat-8g, cholesterol-23 mg, sodium-325mg, fiber-7g, sugar-4.7g, calcium-232.6mg, iron-1.7mg.</p>
+                    </div>
+                </div>
+                <div id="ham_toast">
+                    <button onclick="expand('ham_toast')"><img src="image/icon/close-brown.png" alt="close"></button>
+                    <img src="image/bread/ham_toast.png" alt="ham toast">
+                    <div class="detail">
+                        <h4>Ham Toast</h4>
+                        <p><span>Price :</span> RM 5.60</p>
+                        <p>The ham toast sliced ham from the deli case and whatever good melting cheese.</p>
+                        <p><span>Ingredients :</span> Heavy cream, milk, eggs, sugar, cake flour, yeast, seasalt, ham, cheese.</p>
+                        <p><span>Nutrition(100g) :</span> Calories-228kcal, Carbohydrates-26g, protein-10g, fat-9g, cholesterol-35 mg, sodium-350mg, fiber-21g, sugar-2g, vitaminA-250IU, calcium-120mg, iron-0.5mg.</p>
+                    </div>
+                </div>
+                <div id="matcha_twist">
+                    <button onclick="expand('matcha_twist')"><img src="image/icon/close-brown.png" alt="close"></button>
+                    <img src="image/bread/matcha_twist.png" alt="matcha twist">
+                    <div class="detail">
+                        <h4>Matcha Twist</h4>
+                        <p><span>Price :</span> RM 5.90</p>
+                        <p>The matcha twist spirals of puff pastry with a matcha filling and drizzled with a matcha sweetened condensed milk icing.</p>
+                        <p><span>Ingredients :</span> Milk, matcha powder, condensed milk, all-purpose flour, egg yolks, water, unsalted butter.</p>
+                        <p><span>Nutrition(100g) :</span> Calories-315kcal, Carbohydrates-50g, protein-5g, fat-6g, cholesterol-50mg, sodium-9mg, fiber-2g, sugar-20g, calcium-100mg, iron-1mg.</p>
+                    </div>
+                </div>
+                <div id="milkpeanut_toast">
+                    <button onclick="expand('milkpeanut_toast')"><img src="image/icon/close-brown.png" alt="close"></button>
+                    <img src="image/bread/milkpeanut_toast.png" alt="milkpeanut toast">
+                    <div class="detail">
+                        <h4>Milkpeanut Toast</h4>
+                        <p><span>Price :</span> RM 4.50</p>
+                        <p>The milk peanut toast  has layers of peanut fillings with light sprinkles of sugar mixed with the peanut for extra flavor.</p>
+                        <p><span>Ingredients :</span> Flour, sugar, water, yeast, milk, and cream.</p>
+                        <p><span>Nutrition(100g) :</span> Calories-389kcal, Carbohydrates-51g, protein-5g, fat-12g, cholesterol-62 mg, sodium-7 mg, fiber-2g, sugar-20g, calcium-100mg, iron-1mg.</p>
+                    </div>
+                </div>
+                <div id="pineapple_bun">
+                    <button onclick="expand('pineapple_bun')"><img src="image/icon/close-brown.png" alt="close"></button>
+                    <img src="image/bread/pineapple_bun.png" alt="pineapple bun">
+                    <div class="detail">
+                        <h4>Pineapple Bun</h4>
+                        <p><span>Price :</span> RM 5.30</p>
+                        <p>The pineapple buns mosey right on over to these fluffy, delightfully quirky looking yellow half-domes of buttery, sugary joy.</p>
+                        <p><span>Ingredients :</span> Heavy cream, milk, eggs, sugar, cake flour, bread flour, yeast, seasalt,  all-purpose flour, baking powder, baking soda, vanilla extract.</p>
+                        <p><span>Nutrition(100g) :</span> Calories-313kcal, Carbohydrates-49g, protein-7.5g, fat-9.3g, cholesterol-53 mg, sodium-301mg, fiber-2g, sugar-14g, vitaminA-250IU, calcium-160mg, iron-2mg.</p>
+                    </div>
+                </div>
+                <div id="redbean_bun">
+                    <button onclick="expand('redbean_bun')"><img src="image/icon/close-brown.png" alt="close"></button>
+                    <img src="image/bread/redbean_bun.png" alt="redbean bun">
+                    <div class="detail">
+                        <h4>Redbean Bun</h4>
+                        <p><span>Price :</span> RM 2.50</p>
+                        <p>This red bean bun is filled with a sweet red bean paste smooth appearance.</p>
+                        <p><span>Ingredients :</span> Bread flour, cake flour, sugar, seasalt, yeast, eggs, whole milk, water, unsalted butter, red bean paste, sesame seeds.</p>
+                        <p><span>Nutrition(100g) :</span> Calories-228kcal, Carbohydrates-40g, protein-6g, fat-6g, cholesterol-25mg, sodium-105mg, fiber-2g, sugar-20g, vitaminA-150IU, calcium-20mg, iron-1mg.</p>
+                    </div>
+                </div>
+                <div id="sausage_bun">
+                    <button onclick="expand('sausage_bun')"><img src="image/icon/close-brown.png" alt="close"></button>
+                    <img src="image/bread/sausage_bun.png" alt="sausage bun">
+                    <div class="detail">
+                        <h4>Sausage Bun</h4>
+                        <p><span>Price :</span> RM 3.50</p>
+                        <p>The sausage buns are a hybrid of hot dog buns and the western sausage rolls wrapped in puff pastry soft and fluffy.</p>
+                        <p><span>Ingredients :</span> All-purpose flour, milk, salted butter, yeast, sugar, seasalt, sausages.</p>
+                        <p><span>Nutrition(100g) :</span> Calories-252kcal, Carbohydrates-17g, protein-10g, fat-12g, cholesterol-140 mg, sodium-650mg, fiber-1g, sugar-4g, calcium-20mg, iron-1mg.</p>
+                    </div>
+                </div>
+                <div id="wheatwalnuts_toast">
+                    <button onclick="expand('wheatwalnuts_toast')"><img src="image/icon/close-brown.png" alt="close"></button>
+                    <img src="image/bread/wheatwalnuts_toast.png" alt="wheatwalnuts toast">
+                    <div class="detail">
+                        <h4>Wheatwalnuts Toast</h4>
+                        <p><span>Price :</span> RM 5.50</p>
+                        <p>The wheat walnut toast is made with only whole wheat and light and fluffy and almost doesn't need any butter,it is good for health.</p>
+                        <p><span>Ingredients :</span> Unsalted butter, white whole wheat flour, sugar, yeast, water, pitted dates, preferably medjool, walnut.</p>
+                        <p><span>Nutrition(100g) :</span> Calories-234kcal, Carbohydrates-24g, protein-5g, fat-7g,  sodium-196mg, fiber-12g, sugar-6g.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cake">
+                <div id="cake_1">
+                    <button onclick="expand('cake_1')"><img src="image/icon/close-pink.png" alt="close"></button>
+                    <img src="image/cake/cake1.png" alt="cake 1">
+                    <div class="detail">
+                        <h4>Peach Ice Cream Cake</h4>
+                        <p><span>Price :</span> RM 110/0.5kg, RM 140/1.0kg, RM 160/1.5kg</p>
+                        <p>A pastel pink cake decorated with candy sprinkles and made with yogurt ice cream, so you need to freeze it and eat quickly.</p>
+                        <p><span>Ingredients :</span> Flour, butter, milk, baking soda, sugar, eggs,vanilla essence, cremes, peach, yogurt and candy sprinkles.</p>
+                        <p><span>Nutrition(100g) :</span> Calories-330kcal, fat-11.4mg , cholesterol-50mg, sodium-180mg, potassium-36mg, carbohydrates 38g, fiber 0.2g, sugars 28g, protein 2g,vitamin A-1.4mg, calcium-3.2mg, iron-4mg.</p>
+                    </div>
+                </div>
+                <div id="cake_2">
+                    <button onclick="expand('cake_2')"><img src="image/icon/close-pink.png" alt="close"></button>
+                    <img src="image/cake/cake2.png" alt="cake 2">
+                    <div class="detail">
+                        <h4>Rose Mousse Cake</h4>
+                        <p><span>Price :</span> RM 69/0.5kg, RM 99/1.0kg, RM 119/1.5kg</p>
+                        <p>A classic design with rose petal element, and it has 3 layers for peach mince and strawberry mince with cream.</p>
+                        <p><span>Ingredients :</span> Flour, butter, milk, whipped cream, baking soda, marzipan, sugar, eggs, rose essence, peach mince and strawberry mince.</p>
+                        <p><span>Nutrition(100g) :</span> Calories-310kcal, fat-10.4mg , cholesterol-43 mg, sodium-150 mg, potassium-32mg, carbohydrates 30g, fiber 0.2g, sugars 25g, protein 2g,vitamin A-1.4mg, calcium-3.2mg, iron-4mg.</p>
+                    </div>
+                </div>
+                <div id="cake_3">
+                    <button onclick="expand('cake_3')"><img src="image/icon/close-pink.png" alt="close"></button>
+                    <img src="image/cake/cake3.png" alt="cake 3">
+                    <div class="detail">
+                        <h4>Mango Passion Fruit Cake</h4>
+                        <p><span>Price :</span> RM 69/0.5kg, RM 99/1.0kg, RM 119/1.5kg</p>
+                        <p>A simple design with white background and some flower additions This is a sweet and sour cake and it is suitable for those who like sour.</p>
+                        <p><span>Ingredients :</span> Flour, butter, milk, baking soda, sugar, eggs, vanilla essence, cremes, mango mince and  passion fruit sauce.</p>
+                        <p><span>Nutrition(100g) :</span> Calories-298kcal, fat-10mg , cholesterol-41 mg, sodium-130 mg, potassium-30mg, carbohydrates 29g, fiber 0.1g, sugars 29g, protein 2g,vitamin A-1.4mg, calcium-3.2mg, iron-4mg.</p>
+                    </div>
+                </div>
+                <div id="cake_4">
+                    <button onclick="expand('cake_4')"><img src="image/icon/close-pink.png" alt="close"></button>
+                    <img src="image/cake/cake4.png" alt="cake 4">
+                    <div class="detail">
+                        <h4>Strawberry Mousse Cake</h4>
+                        <p><span>Price :</span> RM 99/0.5kg, RM 129/1.0kg, RM 149/1.5kg</p>
+                        <p>The cake is light, springy, soft, and fluffy. The reduced strawberry puree will tint the cake batter a lovely pastel pink and use the white cream. When cut it, you can see layers after layers.</p>
+                        <p><span>Ingredients :</span> Flour, butter, milk, baking soda, marzipan, sugar icing, sugar, eggs, vanilla essence, cremes, strawberry mince, strawberries and candy sprinkles.</p>
+                        <p><span>Nutrition(100g) :</span> Calories-330kcal, fat-14.2mg , cholesterol-48 mg, sodium-153 mg, potassium-44mg, carbohydrates 41g, fiber 0.3g, sugars 30g, protein 2g,vitamin A-1.4mg, calcium-3.2mg, iron-4m.</p>
+                    </div>
+                </div>
+                <div id="cake_5">
+                    <button onclick="expand('cake_5')"><img src="image/icon/close-pink.png" alt="close"></button>
+                    <img src="image/cake/cake5.png" alt="cake 5">
+                    <div class="detail">
+                        <h4>Mint Chocolate Cake</h4>
+                        <p><span>Price :</span> RM 69/0.5kg, RM 99/1.0kg, RM 119/1.5kg</p>
+                        <p>A smooth coating of creamy mint buttercream with  real chocolate flecks, a generous drizzle of dark chocolate ganache and a gathering of choc mint cookies.</p>
+                        <p><span>Ingredients :</span> Flour, butter, milk, baking soda, sugar, egg, mint essence, cremes and chocolate chip.</p>
+                        <p><span>Nutrition(100g) :</span> Calories-355kcal, fat-15mg , cholesterol-52 mg, sodium-150 mg, potassium-45mg, carbohydrates 33g, fiber 0.25g, sugars 42g, protein 5g,vitamin A-1.8mg, calcium-3.5mg, iron-3mg.</p>
+                    </div>
+                </div>
+                <div id="cake_6">
+                    <button onclick="expand('cake_6')"><img src="image/icon/close-pink.png" alt="close"></button>
+                    <img src="image/cake/cake6.png" alt="cake 6">
+                    <div class="detail">
+                        <h4>Raspberry Coulis Cake</h4>
+                        <p><span>Price :</span> RM 49/0.5kg, RM 79/1.0kg, RM 99/1.5kg</p>
+                        <p>It was deliciously sweet and tart, and the perfect consistency to fill a cake. The old school style outside with white background is simpel. Inside the cake has rasberry and the color of the cake is red.</p>
+                        <p><span>Ingredients :</span> Flour, butter, milk, baking soda, sugar, eggs, vanilla essence, cremes, raspberry mince and strawberry.</p>
+                        <p><span>Nutrition(100g) :</span> Calories-330kcal, fat-13.2mg , cholesterol-48 mg, sodium-153 mg, potassium-44mg, carbohydrates 40g, fiber 0.3g, sugars 30g, protein 2g,vitamin A-1.4mg, calcium-3.2mg, iron-4mg.</p>
+                    </div>
+                </div>
+                <div id="cake_7">
+                    <button onclick="expand('cake_7')"><img src="image/icon/close-pink.png" alt="close"></button>
+                    <img src="image/cake/cake7.png" alt="cake 7">
+                    <div class="detail">
+                        <h4>Matcha Red Bean Cake</h4>
+                        <p><span>Price :</span> RM 79/0.5kg, RM 109/1.0kg, RM 129/1.5kg</p>
+                        <p>The matcha is a favorite flavor of the customer. Between the layer and layer have red beans.</p>
+                        <p><span>Ingredients :</span> Flour, butter, milk, baking soda, sugar, eggs, vanilla essence, cremes, matcha powder and red bean.</p>
+                        <p><span>Nutrition(100g) :</span> Calories-270kcal, fat-11mg , cholesterol-52 mg, sodium-150 mg, potassium-45mg, carbohydrates 33g, fiber 0.25g, sugars 32g, protein 5g,vitamin A-1.8mg, calcium-3.5mg, iron-3mg.</p>
+                    </div>
+                </div>
+                <div id="cake_8">
+                    <button onclick="expand('cake_8')"><img src="image/icon/close-pink.png" alt="close"></button>
+                    <img src="image/cake/cake8.png" alt="cake 8">
+                    <div class="detail">
+                        <h4>Yuzu Gin Sorbet Cake</h4>
+                        <p><span>Price :</span> RM 109/0.5kg, RM 139/1.0kg, RM 159/1.5kg</p>
+                        <p>It is a sky blue background with colorful candy sprinkles.The smell of the yuzu are very fragrant.With a bright tart unique citrus flavor, Yuzu Sorbet makes an irresistibly tasty dessert that refreshes the palate.</p>
+                        <p><span>Ingredients :</span> Flour, butter, milk, baking soda, sugar, eggs, yuzu essence, cremes,yuzu mince and lemon.</p>
+                        <p><span>Nutrition(100g) :</span> Calories-298kcal, fat-10mg , cholesterol-41 mg, sodium-130 mg, potassium-30mg, carbohydrates 30g, fiber 0.1g, sugars 29g, protein 2g,vitamin A-1.4mg, calcium-3.2mg, iron-4mg.</p>
+                    </div>
+                </div>
+                <div id="cake_9">
+                    <button onclick="expand('cake_9')"><img src="image/icon/close-pink.png" alt="close"></button>
+                    <img src="image/cake/cake9.png" alt="cake 9">
+                    <div class="detail">
+                        <h4>Peanut Caramel Cake</h4>
+                        <p><span>Price :</span> RM 59/0.5kg, RM 89/1.0kg, RM 109/1.5kg</p>
+                        <p>A sprinkle chopped peanuts in between the layers and place on a freezer safe plate. Ice cake with caramel icing.</p>
+                        <p><span>Ingredients :</span> Flour, butter, milk, baking soda, sugar, eggs , almond bark, chocolate and corn syrup.</p>
+                        <p><span>Nutrition(100g) :</span>  Calories-269kcal, fat-12mg , cholesterol-49 mg, sodium-140 mg, potassium-45mg, carbohydrates 31g, fiber 0.1g, sugars 32g, protein 4g,vitamin A-1.8mg, calcium-3.5mg, iron-2mg.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cookie">
+                <div id="chocochip_cookies">
+                    <button onclick="expand('chocochip_cookies')"><img src="image/icon/close-yellow.png" alt="close"></button>
+                    <img src="image/cookie/chocochip_cookies.png" alt="chocochip cookies">
+                    <div class="detail">
+                        <h4>Chocochip Cookies</h4>
+                        <p><span>Price :</span> RM 12 / 10pcs</p>
+                        <p>Everyone must have the classic Chocochip Cookie. Crispy and chewy cookies filled with chocolate chips in every single bite.</p>
+                        <p><span>Ingredients :</span> Salted butter, sugar, vanilla extract, eggs, all-purpose flour, baking powder, baking soda, sea salt, chocolate chips.</p>
+                        <p><span>Nutrition(100g) :</span> Calories-487kcal, Carbohydrates-59g, protein-6g, fat-25g, cholesterol-27mg, sodium-153mg, fiber-1g, sugar-35g, vitaminA-197IU, vitaminC-1mg, calcium-24mg, iron-1mg.</p>
+                    </div>
+                </div>
+                <div id="cranberry_cookies">
+                    <button onclick="expand('cranberry_cookies')"><img src="image/icon/close-yellow.png" alt="close"></button>
+                    <img src="image/cookie/cranberry_cookies.png" alt="cranberry cookies">
+                    <div class="detail">
+                        <h4>Cranberry Cookies</h4>
+                        <p><span>Price :</span> RM 15 / 10pcs</p>
+                        <p>Cranberry Cookie is a perfect and delicious treat for the holiday season. Crispy on the outside, chewy on the inside, buttery and sweet. A little bit of sour taste will bring you a whole new taste.</p>
+                        <p><span>Ingredients :</span> Salted butter, sugar, vanilla extract, eggs, all-purpose flour, baking powder, baking soda, sea salt, dried cranberries.</p>
+                        <p><span>Nutrition(100g) :</span> Calories-463kcal, Carbohydrates-45g, protein-15g, fat-13g, sodium-307mg, fiber-3g, sugar-30g, vitaminA-200IU, vitaminC-3mg, calcium-30mg, iron-3mg.</p>
+                    </div>
+                </div>
+                <div id="garlic_cookies">
+                    <button onclick="expand('garlic_cookies')"><img src="image/icon/close-yellow.png" alt="close"></button>
+                    <img src="image/cookie/garlic_cookies.png" alt="garlic cookies">
+                    <div class="detail">
+                        <h4>Garlic Cookies</h4>
+                        <p><span>Price :</span> RM 13 / 10pcs</p>
+                        <p>Garlic cookies are sweet and savory may not be for everyone, but all of our friends who are die-hard garlic lovers have found these cookies enjoyable as an after dinner treat.</p>
+                        <p><span>Ingredients :</span> Salted butter, sugar, eggs, all-purpose flour, baking powder, baking soda, sea salt, coarse oatmeal, garlic.</p>
+                        <p><span>Nutrition(100g) :</span> Calories-432kcal, Carbohydrates-59.5g, protein-5.4g, fat-18.9g, cholesterol-10mg, sodium-919g, sugar-1.4g, calcium-108mg, iron-3mg.</p>
+                    </div>
+                </div>
+                <div id="matcha_cookies">
+                    <button onclick="expand('matcha_cookies')"><img src="image/icon/close-yellow.png" alt="close"></button>
+                    <img src="image/cookie/matcha_cookies.png" alt="matcha cookies">
+                    <div class="detail">
+                        <h4>Matcha Cookies</h4>
+                        <p><span>Price :</span> RM 13 / 10pcs</p>
+                        <p>Enjoy your afternoon tea with these crispy and buttery Matcha Green Tea Cookies. The unique flavor combination of matcha and white chocolate is surprisingly delightful!</p>
+                        <p><span>Ingredients :</span> Unsalted butter, sugar, egg yolks, all-purpose flour, seasalt, matcha powder, white chocolate chips.</p>
+                        <p><span>Nutrition(100g) :</span> Calories-426kcal, Carbohydrates-57.5g, protein-5.3g, fat-19.9g, cholesterol-82mg, sodium-150 mg, fiber-1g, sugar-28.1g, vitaminA-229 IU, vitaminC-1mg, calcium-9 mg, iron-1mg.</p>
+                    </div>
+                </div>
+                <div id="oreo_cookies">
+                    <button onclick="expand('oreo_cookies')"><img src="image/icon/close-yellow.png" alt="close"></button>
+                    <img src="image/cookie/oreo_cookies.png" alt="oreo cookies">
+                    <div class="detail">
+                        <h4>Oreo Cookies</h4>
+                        <p><span>Price :</span> RM 13 / 10pcs</p>
+                        <p>Some of the best cookies and cream cookies! Crispy on the outside and chewy on the inside.</p>
+                        <p><span>Ingredients :</span> Unsalted butter, sugar, eggs, vanilla extract, all-purpose flour, baking powder, baking soda,  seasalt, oreo.</p>
+                        <p><span>Nutrition(100g) :</span> Calories-483kcal, Carbohydrates-71g, protein-5g, fat-20g, sodium-554mg, fiber-1g, sugar-42g.</p>
+                    </div>
+                </div>
+                <div id="saltycheese_cookies">
+                    <button onclick="expand('saltycheese_cookies')"><img src="image/icon/close-yellow.png" alt="close"></button>
+                    <img src="image/cookie/saltycheese_cookies.png" alt="saltycheese cookies">
+                    <div class="detail">
+                        <h4>Saltycheese Cookies</h4>
+                        <p><span>Price :</span> RM 14 / 10pcs</p>
+                        <p>Cheesy and buttery with a little kick of spice. A uniquely delicious savory cookie that's perfect as an appetizer, on your cheese board, or even as an edible gift!</p>
+                        <p><span>Ingredients :</span> Salted butter, shredded sharp cheddar cheese, all-purpose flour, garlic powder, seasalt, sugar.</p>
+                        <p><span>Nutrition(100g) :</span> Calories-512kcal, Carbohydrates-45g, protein-14g, fat-31g, sodium-1000mg, sugar-2g.</p>
+                    </div>
+                </div>
+                <div id="saltyseaweed_cookies">
+                    <button onclick="expand('saltyseaweed_cookies')"><img src="image/icon/close-yellow.png" alt="close"></button>
+                    <img src="image/cookie/saltyseaweed_cookies.png" alt="saltyseaweed cookies">
+                    <div class="detail">
+                        <h4>Saltyseaweed Cookies</h4>
+                        <p><span>Price :</span> RM 13 / 10pcs</p>
+                        <p>Perfect cookie for fans of sweet and salty cookies. Every bite of these crispy sweet salty nutty buttery cookies is indeed very multidimensional!</p>
+                        <p><span>Ingredients :</span> Unsalted butter, sugar, egg yolks, all-purpose flour, seasalt, baking powder, cornflour, white sesame seed, seaweed.</p>
+                        <p><span>Nutrition(100g) :</span> Calories-510kcal, Carbohydrates-20g, protein-17g, fat-42.5g, sodium-170mg, fiber-17g, sugar-8g, vitaminA-4250mg, vitaminC-204mg, iron-6mg.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="beverage">
+                <div id="caramel_macchiato">
+                    <button onclick="expand('caramel_macchiato')"><img src="image/icon/close-blue.png" alt="close"></button>
+                    <img src="image/beverage/caramel_macchiato.jpeg" alt="caramel macchiato">
+                    <div class="detail">
+                        <h4>Caramel Macchiato</h4>
+                        <p><span>Price :</span> RM 8.50</p>
+                        <p>It is a sweet and creamy coffee drink that recommend to people who like sweet.</p>
+                        <p><span>Ingredients :</span> Milk, vanilla, espresso coffee, caramel.</p>
+                        <p><span>Nutrition(100g) :</span> Calories-60 kcal, carbohydrate- 7.69g, protein-2.8, fat-2.61g.</p>
+                    </div>
+                </div>
+                <div id="green_orange_coffee">
+                    <button onclick="expand('green_orange_coffee')"><img src="image/icon/close-blue.png" alt="close"></button>
+                    <img src="image/beverage/green_orange_coffee.jpeg" alt="green orange coffee">
+                    <div class="detail">
+                        <h4>Green Orange Coffee</h4>
+                        <p><span>Price :</span> RM 8.00</p>
+                        <p>The collision of tea and coffee creates innovative new flavors. The bitter taste of coffee will accentuate the aroma of tea.</p>
+                        <p><span>Ingredients :</span> Green orange tea, espresso coffee.</p>
+                        <p><span>Nutrition(100g) :</span> Calories-4kcal, carbohydrate- 1.3g.</p>
+                    </div>
+                </div>
+                <div id="green_plum_tea_coffee">
+                    <button onclick="expand('green_plum_tea_coffee')"><img src="image/icon/close-blue.png" alt="close"></button>
+                    <img src="image/beverage/green_plum_tea_coffee.jpeg" alt="green plum tea coffee">
+                    <div class="detail">
+                        <h4>Green Plum Tea Coffee</h4>
+                        <p><span>Price :</span> RM 8.00</p>
+                        <p>The collision of tea and coffee creates innovative new flavors. The bitter taste of coffee will accentuate the aroma of tea.</p>
+                        <p><span>Ingredients :</span> Green plum tea, espresso coffee.</p>
+                        <p><span>Nutrition(100g) :</span> Calories-3kcal, carbohydrate- 1.3g.</p>
+                    </div>
+                </div>
+                <div id="latte">
+                    <button onclick="expand('latte')"><img src="image/icon/close-blue.png" alt="close"></button>
+                    <img src="image/beverage/latte.jpeg" alt="latte">
+                    <div class="detail">
+                        <h4>Latte</h4>
+                        <p><span>Price :</span> RM 7.00</p>
+                        <p>2/3milk add with espresso coffee, less sweet and taste good, and rich of fresh milk taste.</p>
+                        <p><span>Ingredients :</span> Milk, espresso coffee.</p>
+                        <p><span>Nutrition(100g) :</span> Calories-43kcal, carbohydrate- 4.36g, protein-2.8, fat-1.61g.</p>
+                    </div>
+                </div>
+                <div id="lemon_soda_coffee">
+                    <button onclick="expand('lemon_soda_coffee')"><img src="image/icon/close-blue.png" alt="close"></button>
+                    <img src="image/beverage/lemon_soda_coffee.jpeg" alt="lemon soda coffee">
+                    <div class="detail">
+                        <h4>Lemon Soda Coffee</h4>
+                        <p><span>Price :</span> RM 7.00</p>
+                        <p>The collision of sparkling water and coffee creates innovative new flavors. The bitterness of the coffee neutralizes the sweetness of the lemonade soda.</p>
+                        <p><span>Ingredients :</span> Sprite, espresso coffee.</p>
+                        <p><span>Nutrition(100g) :</span> Calories-31kcal, carbohydrate-7.3mg.</p>
+                    </div>
+                </div>
+                <div id="orange_soda_coffee">
+                    <button onclick="expand('orange_soda_coffee')"><img src="image/icon/close-blue.png" alt="close"></button>
+                    <img src="image/beverage/orange_soda_coffee.jpeg" alt="orange soda coffee">
+                    <div class="detail">
+                        <h4>Orange Soda Coffee</h4>
+                        <p><span>Price :</span> RM 6.00</p>
+                        <p>The collision of sparkling water and coffee creates innovative new flavors. The bitterness of the coffee neutralizes the sweetness of the orange soda.</p>
+                        <p><span>Ingredients :</span> Orange flavor Fanta, espresso coffee.</p>
+                        <p><span>Nutrition(100g) :</span> Calories-31kcal, carbohydrate-7.3mg.</p>
+                    </div>
+                </div>
+                <div id="soya_coffee_latte">
+                    <button onclick="expand('soya_coffee_latte')"><img src="image/icon/close-blue.png" alt="close"></button>
+                    <img src="image/beverage/soya_coffee_latte.jpeg" alt="soya coffee latte">
+                    <div class="detail">
+                        <h4>Soya Coffee Latte</h4>
+                        <p><span>Price :</span> RM 8.00</p>
+                        <p>The collision of soya and coffee creates innovative new flavors. The bitter taste of coffee will accentuate the aroma of soya.</p>
+                        <p><span>Ingredients :</span> Soya, espresso coffee.</p>
+                        <p><span>Nutrition(100g) :</span> Calories-34kcal, protein-2.86g, fat-1.61g, carbohydrate-1.54g</p>
+                    </div>
+                </div>
+                <div id="yakult_coffee">
+                    <button onclick="expand('yakult_coffee')"><img src="image/icon/close-blue.png" alt="close"></button>
+                    <img src="image/beverage/yakult_coffee.jpeg" alt="yakult coffee">
+                    <div class="detail">
+                        <h4>Yakult Coffee</h4>
+                        <p><span>Price :</span> RM 8.50</p>
+                        <p>The collision of lactic acid bacteria drink and coffee creates innovative new flavors. The bitter taste of coffee will accentuate the sour taste of Yakult.</p>
+                        <p><span>Ingredients :</span> Yakult, espresso coffee.</p>
+                        <p><span>Nutrition(100g) :</span> Calories-69kcal, carbohydrate-8.7g.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="intro">
+            <h3>Bakery</h3>
+            <img src="image/logo.png" alt="logo"><br>
+            <h4>THE BREAD BASKET</h4>
+            <a href="home.html">Home</a> | <a href="about_us.html">About Us</a> | <a href="faq.html">FAQ</a><br>
+            <span>Copyright &copy; 2022 The Bread Basket Bakery. All rights reserved<span>
+        </div>
+        <div class="contact">
+            <h3>Contact</h3>
+            <a href="https://www.google.com.my/maps/">
+                <img src="image/icon/location-yellow.png"><span> Address:</span>
+                <address>
+                9, Jalan USJ 50/3 UEP,<br>
+                47630, Subang Jaya,<br>
+                Selangor.
+                </address>
+                <br>
+            </a>
+            <a href="tel:+6034739560"><img src="image/icon/telephone-yellow.png"><span> Phone:</span> +603 473 9560</a><br><br>
+            <a href="mailto:thebreadbasket@gmail.com"><img src="image/icon/mail-yellow.png"><span> Email:</span> thebreadbasket@gmail.com</a>
+        </div>
+        <div class="about">
+            <h3>About the bakery</h3>
+            <div class="about-desc">
+                <p>Establishments producing and selling flour-based food like breads, cakes, and cookies are what bakeries are all about.</p>
+                <p>The objective of our bakery is to make the world a better place.</p>
+            </div>
+            <a href="https://www.facebook.com/" target="_blank"><img src="image/icon/facebook-yellow.png"></a>
+            <a href="https://www.twitter.com/" target="_blank"><img src="image/icon/twitter-yellow.png"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="image/icon/instagram-yellow.png"></a>
+            <a href="https://www.youtube.com/" target="_blank"><img src="image/icon/youtube-yellow.png"></a>
+        </div>
+    </div>
+</body>
+</html>
